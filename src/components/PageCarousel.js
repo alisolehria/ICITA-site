@@ -1,16 +1,17 @@
 import React from "react";
+import carouselPic3 from "../assets/blog_page.jpg";
 
 class PageCarousel extends React.Component {
   render() {
     return (
       <div>
-        <img class="pageCarousel" src={carouselPic3} />
-        <div class="home_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="home_content">
-                  <div class="home_title">
+        <img className="pageCarousel" src={carouselPic3} />
+        <div className="home_container">
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <div className="home_content">
+                  <div className="home_title">
                     <h1>
                       <span style={{ color: "white" }}>{this.props.title}</span>
                     </h1>
@@ -24,4 +25,4 @@ class PageCarousel extends React.Component {
     );
   }
 }
-export default Page;
+export default PageCarousel;

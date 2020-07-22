@@ -21,14 +21,14 @@ class TopCarousel extends React.Component {
                           <div class="home_title">
                             <h1>
                               <span>2021</span>
-                              <span>Computer Science</span>
+                              <span>15th ICITA</span>
                               <span>Conference</span>
                             </h1>
                           </div>
                           <div class="home_info_container">
                             <div class="home_info">
                               <ul class="d-flex flex-row align-items-center justify-content-start">
-                                <li>12-16 February 2021</li>
+                                <li>13-14 Novemeber 2021</li>
                                 <li>Dubai, UAE</li>
                               </ul>
                             </div>

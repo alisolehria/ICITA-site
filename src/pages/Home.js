@@ -1,8 +1,7 @@
 import React from "react";
 import TopCarousel from "./TopCarousel";
 import Introduction from "./Introduction";
-import Footer from "./Footer";
-import Timer from "./Timer";
+import Timer from "../components/Timer";
 class Home extends React.Component {
   componentDidMount() {
     document.title = "ICITA";
@@ -13,7 +12,6 @@ class Home extends React.Component {
         <TopCarousel />
         <Timer />
         <Introduction />
-        <Footer />
       </div>
     );
   }
