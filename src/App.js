@@ -31,10 +31,10 @@ class RouterNav extends React.Component {
       <Router>
         <Header activeClass={activeClass} />
         <Switch>
-          <Route exact path="/Home" component={Home}>
+          <Route exact path="/Home">
             <Home />
           </Route>
-          <Route exact path="/" component={Home}>
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/callforpapers">

@@ -19,7 +19,26 @@ class Organizers extends React.Component {
 
   render() {
     const { data } = this.state;
-    return <div>Organisers</div>;
+    return (
+      <div>
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <div class="section_title_container text-center">
+                  <div class="section_title">
+                    <h1>Organisers</h1>
+                  </div>
+                </div>
+                <div class="intro_text text-center">
+                  <p>Organisers section</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 

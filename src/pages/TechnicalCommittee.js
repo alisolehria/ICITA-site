@@ -8,7 +8,26 @@ class TechnicalCommittee extends React.Component {
     document.title = "Technical Committee";
   }
   render() {
-    return <div>Tech Committee</div>;
+    return (
+      <div>
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <div class="section_title_container text-center">
+                  <div class="section_title">
+                    <h1>Tech committee</h1>
+                  </div>
+                </div>
+                <div class="intro_text text-center">
+                  <p>Tech commitee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
