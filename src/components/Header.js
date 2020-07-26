@@ -53,10 +53,10 @@ class Header extends React.Component {
                 <Link to="/technicalcommittee">Technical Committee</Link>
               </li>
               <li className={activeClass("/organizers")}>
-                <Link to="/organizers">Organizers</Link>
+                <Link to="/organizers">Organisers</Link>
               </li>
-              <li className={activeClass("/previouslistings")}>
-                <Link to="/previouslistings">Previous Listings</Link>
+              <li className={activeClass("/importantdates")}>
+                <Link to="/importantdates">Important Dates</Link>
               </li>
             </ul>
 

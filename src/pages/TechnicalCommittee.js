@@ -16,11 +16,11 @@ class TechnicalCommittee extends React.Component {
               <div class="col text-center">
                 <div class="section_title_container text-center">
                   <div class="section_title">
-                    <h1>Tech committee</h1>
+                    <h1>Technical committee</h1>
                   </div>
                 </div>
                 <div class="intro_text text-center">
-                  <p>Tech commitee</p>
+                  <p>TBA</p>
                 </div>
               </div>
             </div>

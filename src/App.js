@@ -16,10 +16,8 @@ import TechnicalCommittee from "./pages/TechnicalCommittee";
 import Organizers from "./pages/Organizers";
 import PreviousConferences from "./pages/PreviousConferences";
 import PreviousListings from "./pages/PreviousListings";
-
+import Speakers from "./pages/Speakers";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-window.$strapiLink = "http://localhost:1337/organizers";
 
 class RouterNav extends React.Component {
   render() {
@@ -56,10 +54,14 @@ class RouterNav extends React.Component {
 
             <Organizers />
           </Route>
-          <Route path="/previouslistings">
-            <PageCarousel title="Previous Listings" />
+          <Route path="/importantdates">
+            <PageCarousel title="Important Dates" />
 
             <PreviousListings />
+          </Route>
+          <Route path="/speakers">
+            <PageCarousel title="Speakers" />
+            <Speakers />
           </Route>
         </Switch>
         <Footer></Footer>
