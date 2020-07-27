@@ -50,7 +50,7 @@ class RouterNav extends React.Component {
             <TechnicalCommittee />
           </Route>
           <Route path="/organizers">
-            <PageCarousel title="Organizers" />
+            <PageCarousel title="Organisers" />
 
             <Organizers />
           </Route>

@@ -41,6 +41,12 @@ class Introduction extends React.Component {
                   Heriot-Watt University, Edinburgh/Dubai/Malaysia to join
                   others to be the sponsors of this event.
                 </p>
+                <div className="alert warning">
+                  The ICITA conference will be co-located with{" "}
+                  <a href="http://www.acsconf.org" targe="_blank">
+                    Applied Cybersecurity Conference (ACS)
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -10,16 +10,16 @@ class TechnicalCommittee extends React.Component {
   render() {
     return (
       <div>
-        <div class="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col text-center">
-                <div class="section_title_container text-center">
-                  <div class="section_title">
+        <div className="intro">
+          <div className="container">
+            <div className="row">
+              <div className="col text-center">
+                <div className="section_title_container text-center">
+                  <div className="section_title">
                     <h1>Technical committee</h1>
                   </div>
                 </div>
-                <div class="intro_text text-center">
+                <div className="intro_text text-center">
                   <p>TBA</p>
                 </div>
               </div>

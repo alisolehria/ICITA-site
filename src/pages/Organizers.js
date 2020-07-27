@@ -10,7 +10,7 @@ class Organizers extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Organizers";
+    document.title = "Organisers";
   }
 
   render() {
@@ -69,7 +69,7 @@ class Organizers extends React.Component {
                   </div>
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
-                      <h4>General Chair Emeritus</h4>
+                      <h4>International Advisor</h4>
                       <img src={require("../assets/david-sm.jpg")} alt="" />
                       <p className="organiser_intro">
                         Dr. David Tien

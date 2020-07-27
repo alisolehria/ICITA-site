@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 @charset "utf-8";
 /* CSS Document */
 
@@ -44,18 +30,7 @@ code {
 /*********************************
 2. Body and some general stuff
 *********************************/
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 
-  height: 100vh;
-}
-
-.navbar-nav {
-  margin-top: -1%;
-}
 * {
   margin: 0;
   padding: 0;
@@ -68,9 +43,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   background: #ffffff;
-  color: #000000; /*#a5a5a5*/
+  color: #a5a5a5;
 }
-
 div {
   display: block;
   position: relative;
@@ -282,7 +256,7 @@ section {
   height: 100%;
 }
 .slide {
-  height: 60%;
+  height: 100%;
 }
 .button {
   display: inline-block;
@@ -389,9 +363,9 @@ section {
   top: 22px;
   left: 23px;
   width: calc(100% - 48px);
-  background: #0f355c;
+  background: #0a2642;
   z-index: 100;
-  border-bottom: solid 6px #7f66ff;
+  border-bottom: solid 2px #7f66ff;
 }
 .header_content {
   width: 100%;
@@ -432,24 +406,22 @@ section {
   margin-top: 7px;
   margin-left: 2px;
 }
-
-#navbarNav {
+.main_nav {
   margin-left: 155px;
-  padding-top: 1%;
 }
-#navbarNav ul li {
+.main_nav ul li {
   position: relative;
   white-space: nowrap;
 }
-#navbarNav > ul > li.has_children > a {
+.main_nav > ul > li.has_children > a {
   padding-right: 19px;
 }
-#navbarNav > ul > li.has_children > a::after {
+.main_nav > ul > li.has_children > a::after {
   position: absolute;
   top: 0px;
   right: 0px;
   height: 100%;
-  font-family: "Roboto";
+  font-family: "FontAwesome";
   content: "\f107";
   font-size: 20px;
   color: #928d92;
@@ -460,24 +432,24 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-#navbarNav > ul > li.active.has_children > a::after {
+.main_nav > ul > li.active.has_children > a::after {
   color: #7f66ff;
 }
-#navbarNav > ul > li:not(:last-of-type) {
+.main_nav > ul > li:not(:last-of-type) {
   margin-right: 40px;
 }
-#navbarNav ul li a {
+.main_nav ul li a {
   display: block;
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
 }
-#navbarNav > ul > li a:hover,
-#navbarNav > ul > li.active a,
-#navbarNav > ul > li > a:hover::after {
+.main_nav > ul > li a:hover,
+.main_nav > ul > li.active a,
+.main_nav > ul > li > a:hover::after {
   color: #7f66ff;
 }
-#navbarNav ul li > ul {
+.main_nav ul li > ul {
   position: absolute;
   left: 0;
   top: 100%;
@@ -488,38 +460,38 @@ section {
   visibility: hidden;
   opacity: 0;
 }
-#navbarNav ul li.has_children:hover > ul {
+.main_nav ul li.has_children:hover > ul {
   visibility: visible;
   opacity: 1;
 }
-#navbarNav ul li > ul > li {
+.main_nav ul li > ul > li {
   padding-left: 30px;
 }
-#navbarNav ul li > ul > li > a {
+.main_nav ul li > ul > li > a {
   position: relative;
   padding-right: 30px;
 }
-#navbarNav ul li > ul > li:not(:last-of-type) {
+.main_nav ul li > ul > li:not(:last-of-type) {
   margin-bottom: 8px;
 }
-#navbarNav ul li > ul > li a {
+.main_nav ul li > ul > li a {
   color: #7f66ff;
 }
-#navbarNav ul li > ul > li a:hover {
+.main_nav ul li > ul > li a:hover {
   color: #0a2642;
 }
-#navbarNav > ul > li.has_children > ul li.has_children ul {
+.main_nav > ul > li.has_children > ul li.has_children ul {
   position: absolute;
   top: -20px;
   left: 100%;
   border-left: solid 3px #7f66ff;
 }
-#navbarNav > ul > li.has_children > ul li.has_children > a::after {
+.main_nav > ul > li.has_children > ul li.has_children > a::after {
   position: absolute;
   top: 0px;
   right: 16px;
   height: 100%;
-  font-family: "Roboto";
+  font-family: "FontAwesome";
   content: "\f105";
   font-size: 16px;
   color: #928d92;
@@ -530,7 +502,7 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-#navbarNav > ul > li.has_children > ul li.has_children > a:hover::after {
+.main_nav > ul > li.has_children > ul li.has_children > a:hover::after {
   color: #0a2642;
 }
 .header_right {
@@ -582,11 +554,6 @@ section {
 }
 .header .social {
   margin-right: 56px;
-  padding-top: 10%;
-}
-
-#logo {
-  background-color: transparent;
 }
 .social ul li {
   width: 32px;
@@ -735,16 +702,6 @@ section {
 5. Home
 *********************************/
 
-.slider-container {
-  width: 100%;
-  height: 100%;
-
-  /* Add this */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 .home {
   height: 100vh;
 }
@@ -754,7 +711,7 @@ section {
 }
 .home_container {
   position: absolute;
-  top: 40.5%;
+  top: 51.5%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -767,11 +724,11 @@ section {
 }
 .home_title h1 span {
   display: block;
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 90px;
+  font-weight: 700;
   color: #ffffff;
   line-height: 1;
-  /*font-style: italic;*/
+  font-style: italic;
 }
 .home_title h1 span:first-of-type {
   color: #ff9000;
@@ -859,10 +816,6 @@ section {
   height: 197px;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 50px;
-  text-align: center;
-  font-size: 32px;
-  color: white;
 }
 .timer {
   width: 100%;
@@ -1199,10 +1152,6 @@ section {
   margin-top: 1px;
 }
 
-.pageCarousel {
-  height: 35%;
-  width: 100%;
-}
 /*********************************
 11. CTA
 *********************************/
@@ -1231,21 +1180,6 @@ section {
 }
 .cta_button {
   margin-top: 23px;
-}
-
-.organiser_title {
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 1.2;
-  margin-top: 1px;
-}
-.organiser_intro {
-  font-size: 12px;
-  font-weight: 200;
-  color: #ffffff;
-  line-height: 1.2;
-  margin-top: 1px;
 }
 
 /*********************************
@@ -1372,308 +1306,4 @@ section {
   font-size: 14px;
   font-weight: 400;
   color: #4e445d;
-}
-
-@charset "utf-8";
-/* CSS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. 1600px
-2. 1440px
-3. 1280px
-4. 1199px
-5. 1024px
-6. 991px
-7. 959px
-8. 880px
-9. 768px
-10. 767px
-11. 539px
-12. 479px
-13. 400px
-
-******************************/
-
-/************
-1. 1600px
-************/
-
-@media only screen and (max-width: 1600px) {
-  .main_nav {
-    margin-left: 75px;
-  }
-  .main_nav > ul > li:not(:last-of-type) {
-    margin-right: 32px;
-  }
-  .header .social {
-    margin-right: 41px;
-  }
-  .log_reg {
-    margin-right: 43px;
-  }
-}
-
-/************
-2. 1440px
-************/
-
-@media only screen and (max-width: 1440px) {
-  .header .social {
-    display: none;
-  }
-}
-
-/************
-3. 1380px
-************/
-
-@media only screen and (max-width: 1380px) {
-}
-
-/************
-3. 1280px
-************/
-
-@media only screen and (max-width: 1280px) {
-}
-
-/************
-4. 1199px
-************/
-
-@media only screen and (max-width: 1199px) {
-  .header_content {
-    padding-left: 30px;
-  }
-  .main_nav {
-    margin-left: 45px;
-  }
-  .header_link {
-    display: none;
-  }
-}
-
-/************
-4. 1100px
-************/
-
-@media only screen and (max-width: 1100px) {
-}
-
-/************
-5. 1024px
-************/
-
-@media only screen and (max-width: 1024px) {
-}
-
-/************
-6. 991px
-************/
-
-@media only screen and (max-width: 991px) {
-  .main_nav {
-    display: none;
-  }
-  .header_content {
-    padding-right: 30px;
-  }
-  .hamburger {
-    display: block;
-  }
-  .home_title h1 span {
-    font-size: 72px;
-  }
-  .home_info ul li,
-  .home_info ul li:not(:last-of-type)::after {
-    font-size: 24px;
-  }
-  .timer_container {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .tab {
-    -webkit-flex-grow: 0;
-    flex-grow: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .tab_col {
-    margin-top: 60px;
-  }
-  .schedule_col:not(:last-child) {
-    margin-bottom: 40px;
-  }
-  .footer_column {
-    padding-top: 0;
-  }
-  .footer_col:not(:last-child) {
-    margin-bottom: 80px;
-  }
-}
-
-/************
-7. 959px
-************/
-
-@media only screen and (max-width: 959px) {
-}
-
-/************
-8. 880px
-************/
-
-@media only screen and (max-width: 880px) {
-}
-
-/************
-9. 768px
-************/
-
-@media only screen and (max-width: 768px) {
-}
-
-/************
-10. 767px
-************/
-
-@media only screen and (max-width: 767px) {
-  h1 {
-    font-size: 48px;
-  }
-  .home_title h1 span {
-    font-size: 56px;
-  }
-  .timer_num,
-  .timer li:not(:last-of-type)::after {
-    font-size: 48px;
-  }
-}
-
-/************
-11. 575px
-************/
-
-@media only screen and (max-width: 575px) {
-  h1 {
-    font-size: 36px;
-  }
-  h3 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 14px;
-  }
-  .header_content {
-    height: 75px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .header.scrolled .header_content {
-    height: 75px;
-  }
-  .logo a > span {
-    font-size: 24px;
-  }
-  .logo a > span:last-of-type {
-    font-size: 8px;
-    margin-left: 3px;
-  }
-  .log_reg ul li a {
-    font-size: 14px;
-  }
-  .log_reg ul li:not(:last-of-type)::after {
-    font-size: 14px;
-  }
-  .log_reg {
-    margin-right: 30px;
-  }
-  .button {
-    width: 180px;
-    height: 53px;
-  }
-  .button a {
-    font-size: 12px;
-    line-height: 53px;
-  }
-  .home_title h1 span {
-    font-size: 48px;
-  }
-  .home_info ul li,
-  .home_info ul li:not(:last-of-type)::after {
-    font-size: 18px;
-  }
-  .home_info {
-    height: 43px;
-  }
-  .home_button {
-    margin-top: 46px;
-  }
-  .home_slider_dots_container {
-    display: none;
-  }
-  .timer_num,
-  .timer li:not(:last-of-type)::after {
-    font-size: 36px;
-  }
-  .timer_unit {
-    font-size: 14px;
-  }
-  .intro_text p {
-    font-size: 16px;
-  }
-  .tab {
-    font-size: 14px;
-    height: 47px;
-    line-height: 47px;
-  }
-  .tab_text {
-    margin-top: 16px;
-  }
-  .schedule_info {
-    font-size: 14px;
-  }
-  .schedule_list::before {
-    width: 98px;
-  }
-  .schedule_content {
-    padding-left: 45px;
-  }
-  .schedule_list ul li {
-    padding-left: 15px;
-  }
-  .cta_text p {
-    font-size: 16px;
-  }
-}
-
-/************
-11. 539px
-************/
-
-@media only screen and (max-width: 539px) {
-}
-
-/************
-12. 480px
-************/
-
-@media only screen and (max-width: 480px) {
-}
-
-/************
-13. 479px
-************/
-
-@media only screen and (max-width: 479px) {
-}
-
-/************
-14. 400px
-************/
-
-@media only screen and (max-width: 400px) {
 }

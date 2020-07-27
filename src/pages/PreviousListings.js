@@ -3,21 +3,21 @@ import PageCarousel from "../components/PageCarousel";
 
 class PreviousListings extends React.Component {
   componentDidMount() {
-    document.title = "Previous Conferences";
+    document.title = "ICITA | Organisers";
   }
   render() {
     return (
       <div>
-        <div class="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col text-center">
-                <div class="section_title_container text-center">
-                  <div class="section_title">
+        <div className="intro">
+          <div className="container">
+            <div className="row">
+              <div className="col text-center">
+                <div className="section_title_container text-center">
+                  <div className="section_title">
                     <h1>Important Dates</h1>
                   </div>
                 </div>
-                <div class="intro_text text-center">
+                <div className="intro_text text-center">
                   <div align="left">
                     <div>
                       <b>Paper Submission</b>

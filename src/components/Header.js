@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faSearchengin } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 class Header extends React.Component {
@@ -24,10 +24,6 @@ class Header extends React.Component {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {/* <div className="logo navbar-header">
-               
-                  <a href="#" className="navbar-brand"> <img id="logo" alt="Logo" src={logo}/></a>
-       </div> */}
 
           <div className="logo">
             <a href="#">
@@ -38,7 +34,7 @@ class Header extends React.Component {
             </a>
           </div>
 
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse main_nav" id="navbarNav">
             <ul className="navbar-nav">
               <li className={activeClass("/Home")}>
                 <Link to="/">Home</Link>
@@ -49,6 +45,7 @@ class Header extends React.Component {
               <li className={activeClass("/previousconferences")}>
                 <Link to="/previousconferences">Previous Conferences</Link>
               </li>
+
               <li className={activeClass("/technicalcommittee")}>
                 <Link to="/technicalcommittee">Technical Committee</Link>
               </li>
@@ -57,6 +54,24 @@ class Header extends React.Component {
               </li>
               <li className={activeClass("/importantdates")}>
                 <Link to="/importantdates">Important Dates</Link>
+              </li>
+
+              <li className="has_children">
+                <a href="schedule.html">Schedule</a>
+                <ul>
+                  <li>
+                    <a href="#">Program Schedule</a>
+                  </li>
+                  <li>
+                    <Link to="/speakers">Speakers</Link>
+                  </li>
+                  <li>
+                    <a href="#">Venue</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
               </li>
             </ul>
 

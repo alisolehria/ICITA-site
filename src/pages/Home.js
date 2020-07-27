@@ -33,7 +33,7 @@ class Home extends React.Component {
     return (
       <div>
         <TopCarousel />
-        <Timer />
+        {/* <Timer /> */}
         <Introduction />
       </div>
     );
