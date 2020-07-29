@@ -34,7 +34,7 @@ class Header extends React.Component {
             </a>
           </div>
 
-          <div className="collapse navbar-collapse main_nav" id="navbarNav">
+          <div className="collapse navbar-collapse navbar" id="navbarNav">
             <ul className="navbar-nav">
               <li className={activeClass("/Home")}>
                 <Link to="/">Home</Link>
@@ -57,19 +57,19 @@ class Header extends React.Component {
               </li>
 
               <li className="has_children">
-                <a href="schedule.html">Schedule</a>
+                <a href="/">Schedule</a>
                 <ul>
                   <li>
-                    <a href="#">Program Schedule</a>
+                    <Link to="/program">Program Schedule</Link>
                   </li>
                   <li>
                     <Link to="/speakers">Speakers</Link>
                   </li>
                   <li>
-                    <a href="#">Venue</a>
+                    <Link to="/venue">Venue</Link>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </li>
@@ -93,6 +93,21 @@ class Header extends React.Component {
             </div>
           </div>
         </nav>
+
+        {/* <div className="header_content d-flex flex-row align-items-center justify-content-start">
+          <div className="logo">
+            <a href="#">
+              <span>
+                ICITA<span>2021</span>
+              </span>
+              <span>conference</span>
+            </a>
+          </div>
+
+          <nav className="main_nav">
+            <ul className="d-flex flex-row align-items-center justify-content-start">
+              <li className="active">
+                <a href="index.html">Home</a> */}
       </header>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import PageCarousel from "../components/PageCarousel";
 
-class PreviousListings extends React.Component {
+class ImoprtantDates extends React.Component {
   componentDidMount() {
     document.title = "ICITA | Organisers";
   }
@@ -59,4 +59,4 @@ class PreviousListings extends React.Component {
   }
 }
 
-export default PreviousListings;
+export default ImoprtantDates;

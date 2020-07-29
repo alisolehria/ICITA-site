@@ -32,6 +32,23 @@ class Introduction extends React.Component {
                   and social gatherings.{" "}
                 </p>
                 <p align="left">
+                  Since 2002 ICITA has maintained a high conference standard,
+                  and several thousand academics and Information Technology
+                  professionals have used it as a presenting, publishing and
+                  networking medium for their research findings. We are
+                  confident that more will be achieved during the next ten
+                  years! The conference will be held at Dubai, UAE. from the 13
+                  through 14th of November, 2021. The aim of International
+                  Conference on Information Technology and Applications is to
+                  provide a platform for academics and engineers in computer
+                  technology to meet, exchange ideas, and establish professional
+                  networks. It is a forum which will focus on specific
+                  disciplinary research as well as on multi-disciplinary
+                  studies. The uniqueness of ICITA is that it enables scientists
+                  in the world to communicate not only about technical issues,
+                  but also any of the other areas which use technology.
+                </p>
+                <p align="left">
                   Over the past many years, ICITA has been proudly sponsored by:
                   IEEE NSW Section, IEEE Computer Society, the University of
                   Technology Sydney, Australia; Charles Sturt University,

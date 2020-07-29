@@ -8,15 +8,19 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import Carousel from "react-bootstrap/Carousel";
 import Home from "./pages/Home";
 import Header from "./components/Header";
+
 import Footer from "./components/Footer";
 import CallForPapers from "./pages/CallForPapers";
-import Introduction from "./pages/Introduction";
 import PageCarousel from "./components/PageCarousel";
 import TechnicalCommittee from "./pages/TechnicalCommittee";
 import Organizers from "./pages/Organizers";
 import PreviousConferences from "./pages/PreviousConferences";
-import PreviousListings from "./pages/PreviousListings";
+import ImportantDates from "./pages/Importantdates";
 import Speakers from "./pages/Speakers";
+import Venue from "./pages/Venue";
+import Program from "./pages/Program";
+import Contact from "./pages/Contact";
+
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class RouterNav extends React.Component {
@@ -57,11 +61,23 @@ class RouterNav extends React.Component {
           <Route path="/importantdates">
             <PageCarousel title="Important Dates" />
 
-            <PreviousListings />
+            <ImportantDates />
           </Route>
           <Route path="/speakers">
             <PageCarousel title="Speakers" />
             <Speakers />
+          </Route>
+          <Route path="/program">
+            <PageCarousel title="Program" />
+            <Program />
+          </Route>
+          <Route path="/contact">
+            <PageCarousel title="Contact Us" />
+            <Contact />
+          </Route>
+          <Route path="/venue">
+            <PageCarousel title="Venue" />
+            <Venue />
           </Route>
         </Switch>
         <Footer></Footer>
