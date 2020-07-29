@@ -30,7 +30,12 @@ class Organizers extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <h4>General Chair</h4>
-                      <img src={require("../assets/blank.png")} alt="" />
+                      <img
+                        src={require("../assets/abrar.jpg")}
+                        alt=""
+                        width="260"
+                        height="350"
+                      />
                       <p className="organiser_intro">
                         Dr. Abrar Ullah
                         <br /> Assistant Professor, Heriot-Watt University,
@@ -41,9 +46,14 @@ class Organizers extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-4 col-md-6">
                       <h4>Deputy Chair</h4>
-                      <img src={require("../assets/blank.png")} alt="" />
+                      <img
+                        src={require("../assets/Ryad.jpg")}
+                        alt=""
+                        width="230"
+                        height="240"
+                      />
                       <p className="organiser_intro">
-                        Dr. Ryad Soobhany
+                        <b>Dr. Ryad Soobhany</b>
                         <br /> Assistant Professor, Heriot-Watt University,
                         Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
@@ -52,16 +62,21 @@ class Organizers extends React.Component {
                       <h4>International Chair</h4>
                       <img src={require("../assets/blank.png")} alt="" />
                       <p className="organiser_intro">
-                        Dr. Sajid Anwar
+                        <b>Dr. Sajid Anwar</b>
                         <br /> Associate Professor, Institute of Management
                         Sciences, Peshawar
                       </p>
                     </div>
                     <div className="col-xl-4 col-md-6">
                       <h4>Posters Chair</h4>
-                      <img src={require("../assets/blank.png")} alt="" />
+                      <img
+                        src={require("../assets/talal.png")}
+                        alt=""
+                        width="230"
+                        height="240"
+                      />
                       <p className="organiser_intro">
-                        Talal Shaikh
+                        <b>Talal Shaikh</b>
                         <br /> Associate Professor, Heriot-Watt University,
                         Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
@@ -71,8 +86,9 @@ class Organizers extends React.Component {
                     <div className="col-xl-12 col-md-12">
                       <h4>International Advisor</h4>
                       <img src={require("../assets/david-sm.jpg")} alt="" />
+                      <br />
                       <p className="organiser_intro">
-                        Dr. David Tien
+                        <b> Dr. David Tien</b>
                         <br /> Vice Chairman, IEEE Computer Chapter, NSW,
                         Australia
                       </p>
