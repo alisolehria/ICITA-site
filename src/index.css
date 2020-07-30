@@ -444,13 +444,13 @@ section {
 #navbarNav > ul > li.has_children > a {
   padding-right: 19px;
 }
-#navbarNav > ul > li.has_children > a::after {
+.navbarNav > ul > li.has_children > a::after {
   position: absolute;
   top: 0px;
   right: 0px;
   height: 100%;
   font-family: "Roboto";
-  content: "\f107";
+  content: "\25be"; /*"\f107";*/
   font-size: 20px;
   color: #928d92;
   line-height: 1.2;
@@ -460,7 +460,7 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-#navbarNav > ul > li.active.has_children > a::after {
+.navbarNav > ul > li.active.has_children > a::after {
   color: #7f66ff;
 }
 #navbarNav > ul > li:not(:last-of-type) {

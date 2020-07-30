@@ -135,11 +135,8 @@ class Footer extends React.Component {
               <div className="col">
                 <div className="footer_bar_content d-flex flex-row align-items-center justify-content-start">
                   <div className="copyright">
-                    Copyright ICITA 2002-&copy;
-                    <script>
-                      document.write(new Date().getFullYear());
-                    </script>{" "}
-                    All rights reserved | Credit{" "}
+                    Copyright ICITA&copy; 2002-
+                    {new Date().getFullYear()} All rights reserved | Credit{" "}
                     <i className="fa fa-heart-o" aria-hidden="true"></i> by{" "}
                     <a href="https://colorlib.com" target="_blank">
                       Colorlib

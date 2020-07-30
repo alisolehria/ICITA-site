@@ -5,6 +5,24 @@ import { faTwitter, faSearchengin } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 class Header extends React.Component {
+  //Tweet
+  TweetMe(e, text) {
+    //Todo: bitly API integration
+    // var url = fetch("/bitly/shorten?id=" + id, function (href) {
+    //   href = href || "https://www.tripdatabase.com/Document/" + id;
+    // });
+    var url = "https://www.icita.world/";
+    window.open(
+      "https://twitter.com/intent/tweet?text=" +
+        text.substring(0, 100) +
+        "  " +
+        url +
+        "&via=icitaworld",
+      "",
+      "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600"
+    );
+    e.preventDefault();
+  }
   // function  activeClas (route) {
   //     return window.location.pathname === route ? "active" : null;
   //   };
@@ -34,7 +52,10 @@ class Header extends React.Component {
             </a>
           </div>
 
-          <div className="collapse navbar-collapse navbar" id="navbarNav">
+          <div
+            className="collapse navbar-collapse navbar navbarNav"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className={activeClass("/Home")}>
                 <Link to="/">Home</Link>
@@ -79,12 +100,23 @@ class Header extends React.Component {
               <div className="social">
                 <ul className="d-flex flex-row align-items-center justify-content-start">
                   <li>
-                    <a href="#">
+                    <a
+                      href="#"
+                      onClick={(e) =>
+                        this.TweetMe(
+                          e,
+                          "ICITA 2021: Join us on 13-14 November, Knowledge Park, Dubai, UAE"
+                        )
+                      }
+                    >
                       <FontAwesomeIcon icon={faTwitter} />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a
+                      href="http://facebook.com/ICITA-Conference-101598691654233"
+                      target="_blank"
+                    >
                       <FontAwesomeIcon icon={faFacebook} />
                     </a>
                   </li>
