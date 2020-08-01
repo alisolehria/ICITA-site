@@ -60,7 +60,7 @@ class Organizers extends React.Component {
                     </div>
                     <div className="col-xl-4 col-md-6">
                       <h4>International Chair</h4>
-                      <img src={require("../assets/blank.png")} alt="" />
+                      <img src={require("../assets/sajid.png")} alt="" />{" "}
                       <p className="organiser_intro">
                         <b>Dr. Sajid Anwar</b>
                         <br /> Associate Professor, Institute of Management

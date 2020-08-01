@@ -23,7 +23,7 @@ class TopCarousel extends React.Component {
                               <span>2021</span>
                               <span>
                                 15th International Conference on Information
-                                Technology and Application (ICITA)
+                                Technology and Applications (ICITA)
                               </span>
                               {/* <span>Conference</span> */}
                             </h1>
