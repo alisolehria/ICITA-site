@@ -70,11 +70,13 @@ class Header extends React.Component {
                     <Link to="/callforpapers">Call for Papers</Link>
                   </li>
                   <li>
-                    <Link to="/callforworkshop">Call for Workshop</Link>
+                    <Link to="/callforworkshop">
+                      Call for Workshops/Special sessions
+                    </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/callforsession">Special Session</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className={activeClass("/previousconferences")}>
