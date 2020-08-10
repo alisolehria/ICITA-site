@@ -31,7 +31,7 @@ class TopCarousel extends React.Component {
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>13-14 Novemeber 2021</li>
+                                <li>13-15 Novemeber 2021</li>
                                 <li>Dubai, UAE</li>
                               </ul>
                             </div>
@@ -59,7 +59,7 @@ class TopCarousel extends React.Component {
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>13-14 November 2021</li>
+                                <li>13-15 November 2021</li>
                                 <li>Dubai, UAE</li>
                               </ul>
                             </div>

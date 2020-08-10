@@ -45,7 +45,7 @@ class Organizers extends React.Component {
                   </div>
                   <div className="row speakers_row">
                     <div className="col-xl-4 col-md-6">
-                      <h4>Deputy Chair</h4>
+                      <h4>General Co-chair</h4>
                       <img
                         src={require("../assets/Ryad.jpg")}
                         alt=""
@@ -85,7 +85,12 @@ class Organizers extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <h4>International Advisor</h4>
-                      <img src={require("../assets/david-sm.jpg")} alt="" />
+                      <img
+                        src={require("../assets/david.png")}
+                        width="230"
+                        height="240"
+                        alt="David Tien"
+                      />
                       <br />
                       <p className="organiser_intro">
                         <b> Dr. David Tien</b>

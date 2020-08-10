@@ -11,6 +11,9 @@ import Header from "./components/Header";
 
 import Footer from "./components/Footer";
 import CallForPapers from "./pages/CallForPapers";
+import CallForworkshop from "./pages/CallForWorkshop";
+import CallForSession from "./pages/Callforsession";
+
 import PageCarousel from "./components/PageCarousel";
 import TechnicalCommittee from "./pages/TechnicalCommittee";
 import Organizers from "./pages/Organizers";
@@ -43,7 +46,14 @@ class RouterNav extends React.Component {
             <PageCarousel title="Call For Papers" />
             <CallForPapers />
           </Route>
-
+          <Route path="/callforworkshop">
+            <PageCarousel title="Call For Workshop" />
+            <CallForworkshop />
+          </Route>
+          <Route path="/callforsession">
+            <PageCarousel title="Call For Session" />
+            <CallForSession />
+          </Route>
           <Route path="/previousconferences">
             <PageCarousel title="Previous Conferences" />
             <PreviousConferences />

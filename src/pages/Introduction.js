@@ -38,7 +38,7 @@ class Introduction extends React.Component {
                   networking medium for their research findings. We are
                   confident that more will be achieved during the next ten
                   years! The conference will be held at Dubai, UAE. from the 13
-                  through 14th of November, 2021. The aim of International
+                  through 15th of November, 2021. The aim of International
                   Conference on Information Technology and Applications is to
                   provide a platform for academics and engineers in computer
                   technology to meet, exchange ideas, and establish professional
