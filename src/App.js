@@ -22,6 +22,7 @@ import ImportantDates from "./pages/Importantdates";
 import Speakers from "./pages/Speakers";
 import Venue from "./pages/Venue";
 import Program from "./pages/Program";
+import Submission from "./pages/Submission";
 import Contact from "./pages/Contact";
 
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -88,6 +89,10 @@ class RouterNav extends React.Component {
           <Route path="/venue">
             <PageCarousel title="Venue" />
             <Venue />
+          </Route>
+          <Route path="/submissions">
+            <PageCarousel title="Submissions" />
+            <Submission />
           </Route>
         </Switch>
         <Footer></Footer>

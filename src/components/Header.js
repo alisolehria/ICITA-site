@@ -60,11 +60,25 @@ class Header extends React.Component {
               <li className={activeClass("/Home")}>
                 <Link to="/">Home</Link>
               </li>
+
+              <li className={activeClass("/previousconferences")}>
+                <Link to="/previousconferences">Previous Conferences</Link>
+              </li>
+
+              <li className={activeClass("/technicalcommittee")}>
+                <Link to="/technicalcommittee">Committee</Link>
+              </li>
+              <li className={activeClass("/organizers")}>
+                <Link to="/organizers">Organisers</Link>
+              </li>
+              <li className={activeClass("/importantdates")}>
+                <Link to="/importantdates">Important Dates</Link>
+              </li>
               <li
                 className={activeClass("/callforpapers")}
                 className="has_children"
               >
-                <a href="/">Tracks</a>
+                <a href="#/callforpapers">Tracks</a>
                 <ul>
                   <li>
                     <Link to="/callforpapers">Call for Papers</Link>
@@ -79,22 +93,8 @@ class Header extends React.Component {
                   </li> */}
                 </ul>
               </li>
-              <li className={activeClass("/previousconferences")}>
-                <Link to="/previousconferences">Previous Conferences</Link>
-              </li>
-
-              <li className={activeClass("/technicalcommittee")}>
-                <Link to="/technicalcommittee">Technical Committee</Link>
-              </li>
-              <li className={activeClass("/organizers")}>
-                <Link to="/organizers">Organisers</Link>
-              </li>
-              <li className={activeClass("/importantdates")}>
-                <Link to="/importantdates">Important Dates</Link>
-              </li>
-
               <li className="has_children">
-                <a href="/">Schedule</a>
+                <a href="/program">Schedule</a>
                 <ul>
                   <li>
                     <Link to="/program">Program Schedule</Link>

@@ -106,15 +106,26 @@ class CallForWorkshop extends React.Component {
                         should include Program Committee (Names and
                         affiliations)
                       </li>
-                      <li>
-                        <b>Submission Links will open soon..</b>
-                      </li>
                     </ul>
                     <p align="justify">
                       <b>
                         <Link to="/importantdates">Important Dates</Link>
                       </b>
                     </p>
+
+                    <p>
+                      Authors are kindly invited to submit their formatted full
+                      papers including results, tables, figures, and references.
+                      Please, read authors guidelines carefully.
+                    </p>
+                    <div class="button button_2 intro_button">
+                      <Link to="/submissions">
+                        <span>
+                          Submissions{" "}
+                          <img src={require("../assets/arrow.png")} alt="" />
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

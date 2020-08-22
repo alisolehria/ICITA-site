@@ -1,7 +1,5 @@
 import React from "react";
-import Introduction from "./Introduction";
-import Footer from "../components/Footer";
-import PageCarousel from "../components/PageCarousel";
+import { Link } from "react-router-dom";
 
 class CallForPapers extends React.Component {
   componentDidMount() {
@@ -36,7 +34,7 @@ class CallForPapers extends React.Component {
                     areas/fields:
                   </p>
 
-                  <div align="left">
+                  {/* <div align="left">
                     <div>
                       <b>Cloud Computing</b>
                     </div>
@@ -178,7 +176,7 @@ class CallForPapers extends React.Component {
                       </li>
                       <li>Mobile Data Communications&nbsp;</li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div align="left">
                     <div>
                       <b>Conference Tracks</b>
@@ -201,6 +199,20 @@ class CallForPapers extends React.Component {
                       <li>Computer Networks</li>
                       <li>Web Engineering&nbsp;</li>
                     </ul>
+                    <br />
+                    <p>
+                      Authors are kindly invited to submit their formatted full
+                      papers including results, tables, figures, and references.
+                      Please, read authors guidelines carefully.
+                    </p>
+                    <div class="button button_2 intro_button">
+                      <Link to="/submissions">
+                        <span>
+                          Submissions{" "}
+                          <img src={require("../assets/arrow.png")} alt="" />
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
