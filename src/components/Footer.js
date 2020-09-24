@@ -54,7 +54,14 @@ class Footer extends React.Component {
                 <div className="footer_column">
                   <div className="footer_title">Proceedings</div>
                   <div className="footer_text">
-                    <p>TBC</p>
+                    <p>
+                      {" "}
+                      <img
+                        src={require("../assets/springerlink.jpg")}
+                        width="230"
+                        height="auto"
+                      />{" "}
+                    </p>
                   </div>
                 </div>
               </div>

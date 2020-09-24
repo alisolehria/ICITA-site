@@ -169,14 +169,16 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Workshop Chair</h4>
                       <img
-                        src={require("../assets/img-comm/blank.png")}
-                        alt="Dr. Abdul Qayyum"
-                        width="230"
+                        src={require("../assets/img-comm/gupta.jpeg")}
+                        alt="Dr. B B Gupta"
+                        width="200"
                         height="240"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr. Abdul Qayyum</b>
-                        <br /> Lecturer, University of Burgundy, France
+                        <b>Dr. B B Gupta</b>
+                        <br />
+                        Assistant Professor, National Institute of Technology
+                        kurukshetra, India
                       </p>
                     </div>
                   </div>
@@ -245,22 +247,7 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Programme Committee Chair</h4>
                       <img
-                        src={require("../assets/img-comm/gupta.jpeg")}
-                        alt="Prof. Maria Sausa"
-                        width="230"
-                        height="270"
-                      />{" "}
-                      <p className="organiser_intro mt-2">
-                        <b>Dr. B B Gupta</b>
-                        <br />
-                        Assistant Professor, National Institute of Technology
-                        kurukshetra, India
-                      </p>
-                    </div>
-                    <div className="col-xl-6 col-md-6">
-                      <h4>Programme Committee Chair</h4>
-                      <img
-                        src={require("../assets/img-comm/tanveer.jpg")}
+                        src={require("../assets/img-comm/tanveer.png")}
                         alt="Prof. Maria Sausa"
                         width="230"
                         height="270"
@@ -270,6 +257,19 @@ class Organizers extends React.Component {
                         <br />
                         Associate Professor Indian Institute of Technology
                         Indore, India
+                      </p>
+                    </div>
+                    <div className="col-xl-6 col-md-6">
+                      <h4>Programme Committee Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/Qayyum.jpg")}
+                        alt="Dr. Abdul Qayyum"
+                        width="230"
+                        height="270"
+                      />{" "}
+                      <p className="organiser_intro mt-2">
+                        <b>Dr. Abdul Qayyum</b>
+                        <br /> Lecturer, University of Burgundy, France
                       </p>
                     </div>
                   </div>

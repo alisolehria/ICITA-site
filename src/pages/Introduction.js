@@ -58,6 +58,36 @@ class Introduction extends React.Component {
                   Heriot-Watt University, Edinburgh/Dubai/Malaysia to join
                   others to be the sponsors of this event.
                 </p>
+                <p align="left">
+                  ull and short papers accepted and registered will be published
+                  in Proceedings by Springer, will be submitted for indexation
+                  by ISI, EI-Compendex, and SCOPUS , among others, and will be
+                  available in the SpringerLink Digital Library.
+                </p>
+                <div className="row">
+                  <div className="col-lg-4">
+                    {" "}
+                    <img
+                      src={require("../assets/springerlink.jpg")}
+                      width="230"
+                      height="auto"
+                    />{" "}
+                  </div>
+                  <div className="col-lg-4">
+                    <img
+                      src={require("../assets/isi.jpg")}
+                      width="230"
+                      height="auto"
+                    />
+                  </div>
+                  <div className="col-lg-4">
+                    <img
+                      src={require("../assets/scopus.png")}
+                      width="230"
+                      height="auto"
+                    />
+                  </div>
+                </div>
                 <div className="alert warning">
                   The ICITA conference will be co-located with{" "}
                   <a href="http://www.acsconf.org" targe="_blank">

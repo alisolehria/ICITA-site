@@ -88,9 +88,9 @@ class Header extends React.Component {
                       Call for Workshops/Special sessions
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link to="/callforsession">Special Session</Link>
-                  </li> */}
+                  <li>
+                    <Link to="/submissions">Submissions</Link>
+                  </li>
                 </ul>
               </li>
               <li className="has_children">
