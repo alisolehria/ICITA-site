@@ -38,7 +38,7 @@ class Introduction extends React.Component {
                   networking medium for their research findings. We are
                   confident that more will be achieved during the next ten
                   years! The conference will be held at Dubai, UAE. from the 13
-                  through 15th of November, 2021. The aim of International
+                  through 14th of November, 2021. The aim of International
                   Conference on Information Technology and Applications is to
                   provide a platform for academics and engineers in computer
                   technology to meet, exchange ideas, and establish professional
@@ -59,19 +59,24 @@ class Introduction extends React.Component {
                   others to be the sponsors of this event.
                 </p>
                 <p align="left">
-                  ull and short papers accepted and registered will be published
-                  in Proceedings by Springer, will be submitted for indexation
-                  by ISI, EI-Compendex, and SCOPUS , among others, and will be
-                  available in the SpringerLink Digital Library.
+                  Full and short papers accepted and registered will be
+                  published in Proceedings by Springer, will be submitted for
+                  indexation by ISI, EI-Compendex, and SCOPUS , among others,
+                  and will be available in the SpringerLink Digital Library.
                 </p>
                 <div className="row">
                   <div className="col-lg-4">
                     {" "}
-                    <img
-                      src={require("../assets/springerlink.jpg")}
-                      width="230"
-                      height="auto"
-                    />{" "}
+                    <a
+                      href="https://www.springer.com/series/15179"
+                      target="_blank"
+                    >
+                      <img
+                        src={require("../assets/springerlink.jpg")}
+                        width="230"
+                        height="auto"
+                      />{" "}
+                    </a>
                   </div>
                   <div className="col-lg-4">
                     <img
@@ -88,6 +93,29 @@ class Introduction extends React.Component {
                     />
                   </div>
                 </div>
+                <br></br>
+
+                <p align="left">
+                  <b>
+                    Extended version of selected papers will be published in
+                    Journal of Electronics, Special Issue on &nbsp;
+                    <a
+                      href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics#editors"
+                      target="_blank"
+                    >
+                      Usability, Security and Machine Learning
+                    </a>
+                  </b>
+                </p>
+                <br></br>
+                <p>
+                  <img
+                    src="https://www.mdpi.com/img/design/mdpi-pub-logo-blue-small4.png?fff78193ca41c286"
+                    width="130"
+                    height="100"
+                  />
+                </p>
+
                 <div className="alert warning">
                   The ICITA conference will be co-located with{" "}
                   <a href="http://www.acsconf.org" targe="_blank">

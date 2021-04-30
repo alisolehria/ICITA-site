@@ -25,14 +25,14 @@ class TopCarousel extends React.Component {
                                 15th International Conference on Information
                                 Technology and Applications (ICITA)
                               </span>
-                              {/* <span>Conference</span> */}
                             </h1>
                           </div>
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>13-15 Novemeber 2021</li>
+                                <li>13-14 November 2021</li>
                                 <li>Dubai, UAE</li>
+                                <li>Hybrid (Online + Face to Face)</li>
                               </ul>
                             </div>
                           </div>
@@ -52,15 +52,15 @@ class TopCarousel extends React.Component {
                           <div className="home_title">
                             <h1>
                               <span>2021</span>
-                              {/* <li>Dubai</li> */}
                               <span>Dubai Knowledge Park</span>
                             </h1>
                           </div>
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>13-15 November 2021</li>
+                                <li>13-14 November 2021</li>
                                 <li>Dubai, UAE</li>
+                                <li>Hybrid (Online + Face to Face)</li>
                               </ul>
                             </div>
                           </div>

@@ -91,6 +91,9 @@ class Header extends React.Component {
                   <li>
                     <Link to="/submissions">Submissions</Link>
                   </li>
+                  <li>
+                    <Link to="/registration">Registration</Link>
+                  </li>
                 </ul>
               </li>
               <li className="has_children">
@@ -107,6 +110,14 @@ class Header extends React.Component {
                   </li>
                   <li>
                     <Link to="/contact">Contact Us</Link>
+                  </li>
+                </ul>
+              </li>
+              <li className="has_children">
+                <a href="/IKIT">Workshops</a>
+                <ul>
+                  <li>
+                    <Link to="/IKIT">IKIT 2021</Link>
                   </li>
                 </ul>
               </li>

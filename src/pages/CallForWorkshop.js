@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 class CallForWorkshop extends React.Component {
   componentDidMount() {
-    document.title = "Call For Papers";
+    document.title =
+      "Call For Workshop : ICITA (The International Conference on Information Technology and Applications 2021)";
   }
   render() {
     return (
@@ -63,12 +64,12 @@ class CallForWorkshop extends React.Component {
                       </li>
                       <li>
                         Coordinating the review and selection process for the
-                        papers submitted to the Workshop/Special Session.
+                        papers submitted to the Workshop/Special Session
                       </li>
                       <li>
                         Delivering the final versions of the papers accepted for
                         the Workshop/Special Session in accordance with the
-                        guidelines and deadlines defined by ICITA'21 organizers;
+                        guidelines and deadlines defined by ICITA'21 organizers
                       </li>
                       <li>
                         Coordinating and chairing the Workshop/Special sessions
@@ -118,14 +119,23 @@ class CallForWorkshop extends React.Component {
                       papers including results, tables, figures, and references.
                       Please, read authors guidelines carefully.
                     </p>
-                    <div class="button button_2 intro_button">
+                    <p>
+                      Please submit your proposal by email to the workshop
+                      chair:
+                      <b>Prof. Ibrahim A. Hameed</b>
+                      <b>
+                        {" "}
+                        <a href="mailto:ibib@ntnu.no">ibib@ntnu.no</a>
+                      </b>
+                    </p>
+                    {/* <div className="button button_2 intro_button">
                       <Link to="/submissions">
                         <span>
                           Submissions{" "}
                           <img src={require("../assets/arrow.png")} alt="" />
                         </span>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

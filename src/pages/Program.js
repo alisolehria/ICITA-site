@@ -10,7 +10,8 @@ class Program extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "ICITA 2021 | Program";
+    document.title =
+      "ICITA 2021 | Program - 15th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {

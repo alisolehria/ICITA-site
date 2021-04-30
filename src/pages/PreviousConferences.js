@@ -3,7 +3,8 @@ import PageCarousel from "../components/PageCarousel";
 
 class PreviousConferences extends React.Component {
   componentDidMount() {
-    document.title = "Previous Conferences";
+    document.title =
+      "Previous Conferences : 15th International Conference on Information Technology and Applications (ICITA)";
   }
   render() {
     return (

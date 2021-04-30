@@ -10,7 +10,8 @@ class Submission extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "ICITA 2021 | Submissions";
+    document.title =
+      "ICITA 2021 | Submissions - 15th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -52,16 +53,19 @@ class Submission extends React.Component {
                         This information must only be available in the
                         camera-ready version of accepted papers, saved in Word
                         or Latex format and also in PDF format. These files must
-                        be accompanied by the Consent to Publish form filled
-                        out, in a ZIP file, and uploaded at the conference
-                        management system.
+                        be accompanied by the filled ‘Consent to Publish’ form.
+                        All files need to be compressed(e.g. ZIP file) and
+                        uploaded at the conference management system.
                       </p>
                       <p align="left">
-                        To submit or upload a paper please go to Easychair
-                        conference Management System:
+                        To submit or upload a paper please go to{" "}
+                        <b>Easychair conference Management System:</b>
                       </p>
-                      <div class="button button_3 cta_button">
-                        <a href="#">
+                      <div className="button button_3 cta_button">
+                        <a
+                          href="https://easychair.org/cfp/ICITA2021"
+                          target="_blank"
+                        >
                           <span>
                             Easychair
                             <img src={require("../assets/arrow.png")} alt="" />
@@ -93,6 +97,11 @@ class Submission extends React.Component {
                         >
                           Lecture Notes in Network Systems Series
                         </a>
+                        <img
+                          src={require("../assets/lnns.PNG")}
+                          width="230"
+                          height="340"
+                        />
                       </li>
                     </ul>
                   </div>

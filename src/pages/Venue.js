@@ -10,7 +10,8 @@ class Venue extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "ICITA 2021 | Venue";
+    document.title =
+      "ICITA 2021 | Venue - 15th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -29,9 +30,16 @@ class Venue extends React.Component {
                 <div className="intro_text text-center">
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
-                      <p className="organiser_intro">
-                        Dubai Knowledge Park,
-                        <br /> Dubai, UAE
+                      <p align="justify">
+                        {" "}
+                        The event will be held in a hybrid mode (online and
+                        face-to-face). The open ceremony will be held at Heriot
+                        Watt University, Dubai Knowledge Park, Dubai, UAE, and
+                        broadcast live for all remote participants.
+                      </p>
+                      <p align="justify">
+                        Links for the online event and program schedule will be
+                        shared with all participants.
                       </p>
                     </div>
                   </div>

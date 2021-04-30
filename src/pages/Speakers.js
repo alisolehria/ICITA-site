@@ -11,7 +11,7 @@ class Speakers extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Organisers";
+    document.title = "Organisers - ICITA Conference";
   }
 
   render() {

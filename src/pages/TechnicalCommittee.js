@@ -3,7 +3,8 @@ import "../assets/css/flags.css";
 
 class TechnicalCommittee extends React.Component {
   componentDidMount() {
-    document.title = "ICITA 2021: Technical Committee";
+    document.title =
+      "ICITA 2021: Technical Committee - 15th International Conference on Information Technology and Applications (ICITA)";
   }
   render() {
     return (

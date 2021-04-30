@@ -24,6 +24,8 @@ import Venue from "./pages/Venue";
 import Program from "./pages/Program";
 import Submission from "./pages/Submission";
 import Contact from "./pages/Contact";
+import Registration from "./pages/Registration";
+import IKIT from "./pages/IKIT";
 
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -47,6 +49,10 @@ class RouterNav extends React.Component {
             <PageCarousel title="Call For Papers" />
             <CallForPapers />
           </Route>
+          <Route path="/registration">
+            <PageCarousel title="Registration" />
+            <Registration />
+          </Route>
           <Route path="/callforworkshop">
             <PageCarousel title="Call For Workshop" />
             <CallForworkshop />
@@ -68,6 +74,13 @@ class RouterNav extends React.Component {
             <PageCarousel title="Organisers" />
 
             <Organizers />
+          </Route>
+          <Route path="/IKIT">
+            <PageCarousel
+              title="5th International Workshop on Information and Knowledge in Internet of Things"
+              prefix="IKIT-2021"
+            />
+            <IKIT />
           </Route>
           <Route path="/importantdates">
             <PageCarousel title="Important Dates" />

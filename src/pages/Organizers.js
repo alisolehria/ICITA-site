@@ -10,7 +10,8 @@ class Organizers extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Organisers";
+    document.title =
+      "Organisers - 15th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
