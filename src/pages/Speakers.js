@@ -34,13 +34,25 @@ class Speakers extends React.Component {
             <div className="col-xl-4 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
+                  <img
+                    src={require("../assets/img-comm/David_tien.jpg")}
+                    alt=""
+                    width="290"
+                    height="270"
+                  />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
-                    <a href="#">TBC</a>
+                    <a href="#/speaker1" style={{ fontSize: "14px" }}>
+                      Dr.David Tien
+                    </a>
                   </div>
-                  <div className="speaker_title">TBC</div>
+                  <div className="speaker_title">
+                    <a href="#/speaker1" style={{ color: "white" }}>
+                      {" "}
+                      Charles Sturt University, NSW Australia
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -49,73 +61,49 @@ class Speakers extends React.Component {
             <div className="col-xl-4 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
+                  <img
+                    src={require("../assets/img-comm/tony.jpg")}
+                    alt=""
+                    width="260"
+                    height="270"
+                  />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
-                    <a href="#">TBC</a>
+                    <a href="#/speaker2" style={{ fontSize: "14px" }}>
+                      Dr.Anthony Brooks
+                    </a>
                   </div>
-                  <div className="speaker_title">TBC</div>
+                  <div className="speaker_title">
+                    <a href="#/speaker2" style={{ color: "white" }}>
+                      Aalborg University, Denmark
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* <!-- Speaker --> */}
             <div className="col-xl-4 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
+                  <img
+                    src={require("../assets/img-comm/quafafou.jpg")}
+                    alt=""
+                    width="230"
+                    height="260"
+                  />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
-                    <a href="#">TBC</a>
+                    <a href="#/speaker3" style={{ fontSize: "14px" }}>
+                      Prof.Mohamed Quafafou
+                    </a>
                   </div>
-                  <div className="speaker_title">TBC</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a href="#">TBC</a>
+                  <div className="speaker_title">
+                    <a href="#/speaker3" style={{ color: "white" }}>
+                      Aix-Marseille University, France
+                    </a>
                   </div>
-                  <div className="speaker_title">TBC</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a href="#">TBC</a>
-                  </div>
-                  <div className="speaker_title">TBC</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img src={require("../assets/blank.png")} alt="" />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a href="#">TBC</a>
-                  </div>
-                  <div className="speaker_title">TBC</div>
                 </div>
               </div>
             </div>

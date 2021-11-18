@@ -60,6 +60,7 @@ class TechnicalCommittee extends React.Component {
                       Pakistan{" "}
                       <div className="flaggg flaggg-pk" alt="Pakistan"></div>
                     </li>
+
                     <li>
                       Barker, Trevor, University of Hertfordshire , UK{" "}
                       <div className="flaggg flaggg-gb"></div>
@@ -294,6 +295,10 @@ class TechnicalCommittee extends React.Component {
                     </li>
                     <li>
                       Ahmad, Ibrar, University of Peshawar , Paksitan{" "}
+                      <div className="flaggg flaggg-pk" alt="Pakistan"></div>
+                    </li>
+                    <li>
+                      Ali, Shaukat, University of Peshawar, Pakistan{" "}
                       <div className="flaggg flaggg-pk" alt="Pakistan"></div>
                     </li>
                   </ul>

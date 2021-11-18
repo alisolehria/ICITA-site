@@ -100,7 +100,7 @@ class Header extends React.Component {
                 <a href="/program">Schedule</a>
                 <ul>
                   <li>
-                    <Link to="/program">Program Schedule</Link>
+                    <Link to="/program">Programme Schedule</Link>
                   </li>
                   <li>
                     <Link to="/speakers">Speakers</Link>
@@ -117,7 +117,9 @@ class Header extends React.Component {
                 <a href="/IKIT">Workshops</a>
                 <ul>
                   <li>
-                    <Link to="/IKIT">IKIT 2021</Link>
+                    <a href="https://www.ikit.info/" target="_blank">
+                      IKIT 2021
+                    </a>
                   </li>
                 </ul>
               </li>

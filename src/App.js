@@ -20,6 +20,10 @@ import Organizers from "./pages/Organizers";
 import PreviousConferences from "./pages/PreviousConferences";
 import ImportantDates from "./pages/Importantdates";
 import Speakers from "./pages/Speakers";
+import Speaker1 from "./pages/Speaker1";
+import Speaker2 from "./pages/Speaker2";
+import Speaker3 from "./pages/Speaker3";
+
 import Venue from "./pages/Venue";
 import Program from "./pages/Program";
 import Submission from "./pages/Submission";
@@ -91,8 +95,20 @@ class RouterNav extends React.Component {
             <PageCarousel title="Speakers" />
             <Speakers />
           </Route>
+          <Route path="/speaker1">
+            <PageCarousel title="Dr. David Tien" />
+            <Speaker1 />
+          </Route>
+          <Route path="/speaker2">
+            <PageCarousel title="Dr. Anthony Brooks" />
+            <Speaker2 />
+          </Route>
+          <Route path="/speaker3">
+            <PageCarousel title="Professor Mohamed Quafafou" />
+            <Speaker3 />
+          </Route>
           <Route path="/program">
-            <PageCarousel title="Program" />
+            <PageCarousel title="Programme" />
             <Program />
           </Route>
           <Route path="/contact">

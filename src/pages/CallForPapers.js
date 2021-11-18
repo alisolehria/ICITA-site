@@ -147,19 +147,19 @@ class CallForPapers extends React.Component {
                       <p>
                         To ensure that a full paper or short paper is published,
                         poster paper or company paper is published, at least one
-                        of the authors must be fully registered by the 1st of
+                        of the authors must be fully registered by the 20th of
                         June 2021, and the paper must comply with the suggested
                         layout and page-limit. Additionally, all recommended
                         changes must be addressed by the authors before they
                         submit the camera-ready version.
                       </p>
-                      <p>
+                      {/* <p>
                         No more than one paper per registration will be
                         published. An extra fee must be paid for publication of
                         additional papers, with a maximum of one additional
                         paper per registration. One registration permits only
                         the participation of one author in the conference.
-                      </p>
+                      </p> */}
                       <p>
                         Full and Short papers will be published in Proceedings
                         by Springer, in Lecture Notes in Network System series.

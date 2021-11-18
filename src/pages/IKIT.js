@@ -17,10 +17,10 @@ class IKIT extends React.Component {
                 <div className="col text-center">
                   <div className="section_title_container text-center">
                     <div className="contact_title">
-                      <h1 style={{ textAlign: "left" }}>
+                      <h3 style={{ textAlign: "left" }}>
                         5th International Workshop on Information and Knowledge
                         in Internet of Things
-                      </h1>
+                      </h3>
                     </div>
                   </div>
                   <div className="intro_left_content text_left">

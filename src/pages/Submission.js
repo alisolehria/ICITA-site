@@ -36,8 +36,7 @@ class Submission extends React.Component {
                       </p>
                       <p align="left">
                         All papers must follow the formatting rules for
-                        Proceedings in Advances in Intelligent Systems and
-                        Computing Series (see{" "}
+                        Proceedings Lecture Notes in Network Systems Series (see{" "}
                         <a
                           href="https://www.springer.com/de/authors-editors/book-authors-editors/resources-guidelines/book-manuscript-guidelines/manuscript-preparation/5636"
                           target="_blank"
@@ -46,7 +45,7 @@ class Submission extends React.Component {
                           written in English.
                         </a>
                       </p>
-                      <p align="left">
+                      {/* <p align="left">
                         The version of papers for evaluation by the Program
                         Committee, saved in PDF format, must not include
                         identification, e-mail and affiliation of the authors.
@@ -56,14 +55,59 @@ class Submission extends React.Component {
                         be accompanied by the filled ‘Consent to Publish’ form.
                         All files need to be compressed(e.g. ZIP file) and
                         uploaded at the conference management system.
-                      </p>
-                      <p align="left">
+                      </p> */}
+
+                      {/* <p align="left">
                         To submit or upload a paper please go to{" "}
                         <b>Easychair conference Management System:</b>
-                      </p>
-                      <div className="button button_3 cta_button">
+                      </p> */}
+                      <br></br>
+                      {/* <div className="button button_3 cta_button pull-left">
                         <a
-                          href="https://easychair.org/cfp/ICITA2021"
+                          href="https://easychair.org/conferences/?conf=icita2021"
+                          target="_blank"
+                        >
+                          <span>
+                            Easychair
+                            <img src={require("../assets/arrow.png")} alt="" />
+                          </span>
+                        </a>
+                      </div> */}
+                      {/* <p>
+                        Note: To submit a paper you need to have an EasyChair
+                        account.
+                      </p> */}
+
+                      {/* Camera Ready Paper Submission */}
+                      <p align="left">
+                        <h4>Submit Camera Ready Papers by 20th August 2021</h4>
+                      </p>
+                      <p align="left">
+                        <b>
+                          The version of papers must include names, e-mail and
+                          affiliation of the authors. This information must be
+                          saved in Word and also in PDF format. These files must
+                          be accompanied by the filled ‘Consent to Publish’
+                          form.
+                          <a
+                            href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
+                            target="_blank"
+                          >
+                            Click here to download the consent form.
+                          </a>
+                          All files need to be compressed(e.g. ZIP file) and
+                          uploaded at the conference management system.
+                        </b>
+                      </p>
+
+                      <p align="left">
+                        To submit camera ready paper please go to{" "}
+                        <b>Easychair conference Management System:</b>
+                      </p>
+                      <br></br>
+                      <div className="button button_3 cta_button pull-left">
+                        <a
+                          href="https://easychair.org/conferences/?conf=icita2021"
                           target="_blank"
                         >
                           <span>
@@ -72,6 +116,9 @@ class Submission extends React.Component {
                           </span>
                         </a>
                       </div>
+                      <p>
+                        <b>Note: You must update the existing paper </b>
+                      </p>
                     </div>
                   </div>
                 </div>

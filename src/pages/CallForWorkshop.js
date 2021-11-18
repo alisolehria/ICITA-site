@@ -31,6 +31,7 @@ class CallForWorkshop extends React.Component {
                     the several perspectives of Information Systems and
                     Technologies.
                   </p>
+                  <br></br>
                   <h4>Workshop/Special Session Format</h4>
                   <p align="left">
                     Workshops/Special Sessions should focus on a specific
@@ -47,6 +48,7 @@ class CallForWorkshop extends React.Component {
                     Session Chairs. Workshops/Special Session papers will be
                     published in the conference main proceedings.
                   </p>
+                  <br></br>
                   <h4>Workshop/Special Session organization</h4>
 
                   <div align="left">
@@ -86,7 +88,7 @@ class CallForWorkshop extends React.Component {
                       </b>
                     </p>
                   </div>
-
+                  <br></br>
                   <div align="left">
                     <div>
                       <h4>Proposal Content</h4>
@@ -128,14 +130,20 @@ class CallForWorkshop extends React.Component {
                         <a href="mailto:ibib@ntnu.no">ibib@ntnu.no</a>
                       </b>
                     </p>
-                    {/* <div className="button button_2 intro_button">
-                      <Link to="/submissions">
-                        <span>
-                          Submissions{" "}
-                          <img src={require("../assets/arrow.png")} alt="" />
-                        </span>
-                      </Link>
-                    </div> */}
+                  </div>
+                  <br></br>
+                  <div align="left">
+                    <div>
+                      <h4>Workshops</h4>
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="https://www.ikit.info/" target="_blank">
+                          5th International Workshop on Information and
+                          Knowledge in the Internet of Things (IKIT 2021)
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
