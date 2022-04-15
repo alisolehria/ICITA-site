@@ -21,7 +21,7 @@ class Registration extends React.Component {
                   </div>
                   <div className="intro_left_content text_left">
                     <p align="center">
-                      <iframe
+                      {/* <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScMyVMhxEatdz-PJTBIxb8WPY1MlgyFc4RaZTWndTSciI0Hrw/viewform?embedded=true"
                         width="740"
                         height="1446"
@@ -30,7 +30,8 @@ class Registration extends React.Component {
                         marginWidth="0"
                       >
                         Loading…
-                      </iframe>
+                      </iframe> */}
+                      TBC
                     </p>
                   </div>
                 </div>

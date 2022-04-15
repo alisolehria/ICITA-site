@@ -46,7 +46,7 @@ class Header extends React.Component {
           <div className="logo">
             <a href="#">
               <span>
-                ICITA<span>2021</span>
+                ICITA<span>2022</span>
               </span>
               <span>Conference</span>
             </a>
@@ -113,7 +113,7 @@ class Header extends React.Component {
                   </li>
                 </ul>
               </li>
-              <li className="has_children">
+              {/* <li className="has_children">
                 <a href="/IKIT">Workshops</a>
                 <ul>
                   <li>
@@ -122,7 +122,7 @@ class Header extends React.Component {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
 
             <div className="header_right ml-auto d-flex flex-row align-items-center justify-content-start">

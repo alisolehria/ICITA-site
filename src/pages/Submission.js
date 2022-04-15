@@ -31,10 +31,11 @@ class Submission extends React.Component {
                   <div className="intro_left_content text_left">
                     <div className="row speakers_row">
                       <p align="left">
-                        Prospective authors are encouraged to submit papers for
-                        evaluation by the Program Committee.
+                        {/* Prospective authors are encouraged to submit papers for
+                        evaluation by the Program Committee. */}
+                        The submission system will be live soon.
                       </p>
-                      <p align="left">
+                      {/* <p align="left">
                         All papers must follow the formatting rules for
                         Proceedings Lecture Notes in Network Systems Series (see{" "}
                         <a
@@ -44,7 +45,7 @@ class Submission extends React.Component {
                           Instructions for Authors at Springer Website) and be
                           written in English.
                         </a>
-                      </p>
+                      </p> */}
                       {/* <p align="left">
                         The version of papers for evaluation by the Program
                         Committee, saved in PDF format, must not include
@@ -79,7 +80,7 @@ class Submission extends React.Component {
                       </p> */}
 
                       {/* Camera Ready Paper Submission */}
-                      <p align="left">
+                      {/* <p align="left">
                         <h4>Submit Camera Ready Papers by 20th August 2021</h4>
                       </p>
                       <p align="left">
@@ -98,14 +99,14 @@ class Submission extends React.Component {
                           All files need to be compressed(e.g. ZIP file) and
                           uploaded at the conference management system.
                         </b>
-                      </p>
+                      </p> */}
 
-                      <p align="left">
+                      {/* <p align="left">
                         To submit camera ready paper please go to{" "}
                         <b>Easychair conference Management System:</b>
-                      </p>
+                      </p> */}
                       <br></br>
-                      <div className="button button_3 cta_button pull-left">
+                      {/* <div className="button button_3 cta_button pull-left">
                         <a
                           href="https://easychair.org/conferences/?conf=icita2021"
                           target="_blank"
@@ -118,7 +119,7 @@ class Submission extends React.Component {
                       </div>
                       <p>
                         <b>Note: You must update the existing paper </b>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -126,15 +127,15 @@ class Submission extends React.Component {
               <div className="col-lg-3 sidebar_col">
                 <div className="sidebar">
                   <br></br>
-                  <p>
+                  {/* <p>
                     {" "}
                     <img
                       src={require("../assets/springerlink.jpg")}
                       width="230"
                       height="auto"
                     />{" "}
-                  </p>
-                  <div className="categories sidebar_list">
+                  </p> */}
+                  {/* <div className="categories sidebar_list">
                     <div className="sidebar_title">Proceedings</div>
                     <ul>
                       <li>
@@ -151,7 +152,7 @@ class Submission extends React.Component {
                         />
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div className="categories sidebar_list">
                     <img
                       src={require("../assets/scopus.png")}

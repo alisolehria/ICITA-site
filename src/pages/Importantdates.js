@@ -89,8 +89,7 @@ class ImoprtantDates extends React.Component {
                           Conference paper/ submission deadline
                         </div>
                         <div className="schedule_title">
-                          <strike>1st June 2021</strike>
-                          <br></br>20<sup>th</sup> June 2021
+                          <br></br>5<sup>th</sup> June 2022
                         </div>
                         {/* <div className="schedule_info">
                           
@@ -103,9 +102,9 @@ class ImoprtantDates extends React.Component {
                       </div>
                       <div className="schedule_content">
                         <div className="schedule_time">
-                          Poster/Abstract Submission Date
+                          Poster/Paper Submission Date
                         </div>
-                        <div className="schedule_title">20th June 2021</div>
+                        <div className="schedule_title">20th June 2022</div>
                         {/* <div className="schedule_info">
                           
                         </div> */}
@@ -119,7 +118,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Conference paper notification
                         </div>
-                        <div className="schedule_title">8th August 2021</div>
+                        <div className="schedule_title">8th August 2022</div>
                       </div>
                     </li>
                     <li className="d-flex flex-row align-items-center justify-content-start">
@@ -128,7 +127,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Camera Ready Submission (Strict)
                         </div>
-                        <div className="schedule_title">20th August 2021</div>
+                        <div className="schedule_title">20th August 2022</div>
                       </div>
                     </li>
                   </ul>
@@ -149,7 +148,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Workshop/Special Session Proposal
                         </div>
-                        <div className="schedule_title">5th May, 2021</div>
+                        <div className="schedule_title">5th May, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}
@@ -161,7 +160,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Notification of Workshop/Special Acceptance
                         </div>
-                        <div className="schedule_title">5th June, 2021</div>
+                        <div className="schedule_title">5th June, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}
@@ -173,7 +172,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Workshop Final Information and Program Committee:
                         </div>
-                        <div className="schedule_title">15th June, 2021</div>
+                        <div className="schedule_title">15th June, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}
@@ -185,7 +184,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Deadline for paper submission
                         </div>
-                        <div className="schedule_title">5th July, 2021</div>
+                        <div className="schedule_title">5th July, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}
@@ -197,7 +196,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Notification of Acceptance
                         </div>
-                        <div className="schedule_title">25th July, 2021</div>
+                        <div className="schedule_title">25th July, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}
@@ -209,7 +208,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Camera ready paper and registration (Strict)
                         </div>
-                        <div className="schedule_title">30th July, 2021</div>
+                        <div className="schedule_title">30th July, 2022</div>
                         {/* <div className="schedule_info">
                          Footer
                         </div> */}

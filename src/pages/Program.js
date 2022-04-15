@@ -11,7 +11,7 @@ class Program extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2021 | Programme - 15th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2022 | Programme - 16th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -30,12 +30,13 @@ class Program extends React.Component {
                 <div className="intro_text text-center">
                   <div className="row speakers_row">
                     {" "}
-                    <a
+                    To be published.
+                    {/* <a
                       href="https://www.icita.world/files/ICITA_2021.pdf"
                       target="_blank"
                     >
                       Click here to access the programme
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

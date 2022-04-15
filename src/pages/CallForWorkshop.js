@@ -136,14 +136,14 @@ class CallForWorkshop extends React.Component {
                     <div>
                       <h4>Workshops</h4>
                     </div>
-                    <ul>
+                    {/* <ul>
                       <li>
                         <a href="https://www.ikit.info/" target="_blank">
                           5th International Workshop on Information and
                           Knowledge in the Internet of Things (IKIT 2021)
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>

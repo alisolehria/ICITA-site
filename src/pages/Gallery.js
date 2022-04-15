@@ -1,6 +1,6 @@
 import React from "react";
 
-class Organizers extends React.Component {
+class Gallery extends React.Component {
   constructor(props) {
     super(props);
 
@@ -32,15 +32,15 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Honorary Chair</h4>
                       <img
-                        src={require("../assets/img-comm/David_tien1.jpg")}
+                        src={require("../assets/img-comm/David_tien.jpg")}
                         alt=""
-                        width="260"
+                        width="280"
                         height="280"
                       />
                       <p className="organiser_intro mt-2">
-                        <b>Dr David Tien</b>
-                        <br />
-                        IEEE Computer Society Asia-Pacific Area Coordinator
+                        <b>David Tien</b>
+                        <br /> IEEE Computer Society Asia-Pacific Area
+                        Coordinator
                         <br />
                         Charles Sturt University Australia
                       </p>
@@ -72,7 +72,7 @@ class Organizers extends React.Component {
                         height="350"
                       />
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Abrar Ullah</b>
+                        <b>Dr. Abrar Ullah</b>
                         <br /> Associiate Professor, Heriot-Watt University,
                         Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
@@ -86,9 +86,9 @@ class Organizers extends React.Component {
                         height="350"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr Maria José Sousa</b>
-                        <br /> Pro-Rector for Distance Education, University
-                        Institute of Lisbon, Portugal
+                        <b>Dr. Maria José Sousa</b>
+                        <br /> Professor, University Institute of Lisbon,
+                        Portugal
                       </p>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ class Organizers extends React.Component {
                         height="240"
                       />
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Ryad Soobhany</b>
+                        <b>Dr. Ryad Soobhany</b>
                         <br /> Assistant Professor, Heriot-Watt University,
                         Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
@@ -116,23 +116,22 @@ class Organizers extends React.Component {
                         height="240"
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Imran Razzak</b>
+                        <b>Dr. Imran Razzak</b>
                         <br /> Senior Lecturer,School of Information Technology,
                         Deakin Univesity, Victoria, Australia
                       </p>
                     </div>
                     <div className="col-xl-4 col-md-6">
-                      <h4>General Co-chair</h4>
+                      <h4>Posters Chair</h4>
                       <img
-                        src={require("../assets/img-comm/pedro.jpg")}
-                        alt="Dr Pedro Sebastião"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Talal Shaikh"
                         width="230"
                         height="240"
                       />
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Pedro Sebastião</b>
-                        <br /> Assistant Professor, University Institute of
-                        Lisbon, Portugal
+                        <b>TBC</b>
+                        <br /> TBC
                       </p>
                     </div>
                   </div>
@@ -144,7 +143,7 @@ class Organizers extends React.Component {
                         alt=""
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Sajid Anwar</b>
+                        <b>Dr. Sajid Anwar</b>
                         <br /> Associate Professor, Institute of Management
                         Sciences, Peshawar
                       </p>
@@ -159,7 +158,7 @@ class Organizers extends React.Component {
                       />
                       <br />
                       <p className="organiser_intro  mt-2">
-                        <b> Anthany Chan</b>
+                        <b> Dr. Anthany Chan</b>
                         <br /> Charles Sturt University Australia
                       </p>
                     </div>
@@ -168,31 +167,29 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Workshop Chair</h4>
                       <img
-                        src={require("../assets/img-comm/teresa.jpg")}
-                        alt="Dr Teresa Guarda"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Ibrahim Nafees"
                         width="230"
                         height="240"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr Teresa Guarda</b>
-                        <br />
-                        Director of the CIST Research and Innovation Center,
-                        Faculty of Systems and Telecommunications, UPSE, Ecuador{" "}
-                        {/* <br />
-                        Vice President of the International Society for the
-                        Study of Information, Austria */}
+                        TBC
+                        {/* <b>Professor. Ibrahim A. Hameed</b>
+                        <br /> Professor, Norwegian University of Science, and
+                        Technology (NTNU) <br /> Chair of the IEEE Computational
+                        Intelligence Society (CIS), Norway */}
                       </p>
                     </div>
                     <div className="col-xl-6 col-md-6">
                       <h4>Workshop Chair</h4>
                       <img
                         src={require("../assets/img-comm/gupta.jpeg")}
-                        alt="Dr B B Gupta"
+                        alt="Dr. B B Gupta"
                         width="200"
                         height="240"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr B B Gupta</b>
+                        <b>Dr. B B Gupta</b>
                         <br />
                         Assistant Professor, National Institute of Technology
                         kurukshetra, India
@@ -204,7 +201,7 @@ class Organizers extends React.Component {
                       <h4>Special Session Chair</h4>
                       <img
                         src={require("../assets/img-comm/fernando.jpg")}
-                        alt="Dr Fernando Moreira"
+                        alt="Dr. Fernando Moreira"
                         width="230"
                         height="240"
                       />{" "}
@@ -234,29 +231,30 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Publicity Chair</h4>
                       <img
-                        src={require("../assets/img-comm/isabel.jpg")}
-                        alt="Dr Isabel Alexandre"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Prof. Maria Sausa"
                         width="230"
                         height="260"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr Isabel Alexandre</b>
-                        <br /> Assistant Professor, University Institute of
-                        Lisbon, Portugal
+                        <b>TBC</b>
+                        {/* <b>Professor. Maria José Sousa</b>
+                        <br /> Professor, University Institute of Lisbon,
+                        Portugal */}
                       </p>
                     </div>
                     <div className="col-xl-6 col-md-6">
                       <h4>Publicity Chair</h4>
                       <img
-                        src={require("../assets/img-comm/joana.jpg")}
-                        alt="Joana Martinho da Costa"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Salma Noor"
                         width="230"
                         height="260"
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Joana Martinho da Costa</b>
-                        <br /> Invited Assistant Professor, University Institute
-                        of Lisbon, Portugal
+                        <b>TBC</b>
+                        {/* <br /> Assistant Professor, Shaheed Benazir Bhutto Women
+                        University, Pakistan */}
                       </p>
                     </div>
                   </div>
@@ -264,30 +262,29 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Programme Committee Chair</h4>
                       <img
-                        src={require("../assets/img-comm/sergio.jpg")}
-                        alt="Dr Sérgio Moro"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Prof. Maria Sausa"
                         width="230"
-                        height="260"
+                        height="270"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr Sérgio Moro</b>
+                        <b>TBC</b>
                         <br />
-                        Associate Professor, University Institute of Lisbon,
-                        Portugal
+                        {/* Associate Professor Indian Institute of Technology
+                        Indore, India */}
                       </p>
                     </div>
                     <div className="col-xl-6 col-md-6">
                       <h4>Programme Committee Chair</h4>
                       <img
-                        src={require("../assets/img-comm/Babar.jpg")}
-                        alt="Dr Babar Shah"
-                        width="200"
+                        src={require("../assets/img-comm/blank.png")}
+                        alt="Dr. Abdul Qayyum"
+                        width="230"
                         height="270"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Dr Babar Shah</b>
-                        <br /> Associate Professor, Zayed University, Abu Dhabi,
-                        UAE
+                        <b>TBC</b>
+                        {/* <br /> Lecturer, University of Burgundy, France */}
                       </p>
                     </div>
                   </div>
@@ -301,4 +298,4 @@ class Organizers extends React.Component {
   }
 }
 
-export default Organizers;
+export default Gallery;

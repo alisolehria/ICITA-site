@@ -9,14 +9,14 @@ class Introduction extends React.Component {
             <div className="col text-center">
               <div className="section_title_container text-center">
                 <div className="section_title">
-                  <h1>ICITA 2021</h1>
+                  <h1>ICITA 2022</h1>
                 </div>
               </div>
               <div className="intro_left_content text_left">
                 <p align="left">
-                  The 15th International Conference on Information Technology
-                  and Applications (ICITA 2021) will be held in Dubai, UAE on 13
-                  - 14 November 2021. The conference is an annual event and
+                  The 16th International Conference on Information Technology
+                  and Applications (ICITA 2022) will be held in Lisbon, Portugal
+                  on 20 - 22 October 2022. The conference is an annual event and
                   recognized as one of the major series of conferences in
                   Information Technology (IT in short). ICITA continues to
                   retain its tradition of being a high quality conference. The
@@ -27,7 +27,7 @@ class Introduction extends React.Component {
                   establish new links and extend professional networks. This
                   conference addresses the importance that IT professionals
                   stretch across narrowly defined subject areas and constantly
-                  acquire a global technical and social perspective. ICITA 2021
+                  acquire a global technical and social perspective. ICITA 2022
                   offers such an opportunity to facilitate cross-disciplinary
                   and social gatherings.{" "}
                 </p>
@@ -37,16 +37,17 @@ class Introduction extends React.Component {
                   professionals have used it as a presenting, publishing and
                   networking medium for their research findings. We are
                   confident that more will be achieved during the next ten
-                  years! The conference will be held at Dubai, UAE. from the 13
-                  through 14th of November, 2021. The aim of International
-                  Conference on Information Technology and Applications is to
-                  provide a platform for academics and engineers in computer
-                  technology to meet, exchange ideas, and establish professional
-                  networks. It is a forum which will focus on specific
-                  disciplinary research as well as on multi-disciplinary
-                  studies. The uniqueness of ICITA is that it enables scientists
-                  in the world to communicate not only about technical issues,
-                  but also any of the other areas which use technology.
+                  years! The conference will be held at ISCTE - Instituto
+                  Universitário de Lisboa, Portugal from the 20 through 22nd of
+                  October, 2022. The aim of International Conference on
+                  Information Technology and Applications is to provide a
+                  platform for academics and engineers in computer technology to
+                  meet, exchange ideas, and establish professional networks. It
+                  is a forum which will focus on specific disciplinary research
+                  as well as on multi-disciplinary studies. The uniqueness of
+                  ICITA is that it enables scientists in the world to
+                  communicate not only about technical issues, but also any of
+                  the other areas which use technology.
                 </p>
                 <p align="left">
                   Over the past many years, ICITA has been proudly sponsored by:
@@ -54,7 +55,8 @@ class Introduction extends React.Component {
                   Technology Sydney, Australia; Charles Sturt University,
                   Australia; Heilongjiang University, China, Jiao-tong
                   University, China, ACM SIG CHI Singapore and Society of
-                  Industry Technology. For the ICITA 2021, we gladly welcome the
+                  Industry Technology. For the ICITA 2022, we gladly welcome the
+                  ISCTE - Instituto Universitário de Lisboa, Portugal and the
                   Heriot-Watt University, Edinburgh/Dubai/Malaysia to join
                   others to be the sponsors of this event.
                 </p>
@@ -95,7 +97,7 @@ class Introduction extends React.Component {
                 </div>
                 <br></br>
 
-                <p align="left">
+                {/* <p align="left">
                   <b>
                     Extended version of selected papers will be published in
                     Journal of Electronics, Special Issue on &nbsp;
@@ -106,7 +108,7 @@ class Introduction extends React.Component {
                       Usability, Security and Machine Learning
                     </a>
                   </b>
-                </p>
+                </p> 
                 <br></br>
                 <p>
                   <img
@@ -114,14 +116,7 @@ class Introduction extends React.Component {
                     width="130"
                     height="100"
                   />
-                </p>
-
-                <div className="alert warning">
-                  The ICITA conference will be co-located with{" "}
-                  <a href="http://www.acsconf.org" targe="_blank">
-                    Applied Cybersecurity Conference (ACS)
-                  </a>
-                </div>
+    </p>*/}
               </div>
             </div>
           </div>

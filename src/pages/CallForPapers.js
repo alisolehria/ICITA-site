@@ -172,12 +172,91 @@ class CallForPapers extends React.Component {
                         <b>Google Scholar</b>, among others, and will be
                         available in the <b>SpringerLink Digital Library.</b>
                       </p>
-                      <h4> Registration Fee (0$)</h4>
+                      <h4> Registration Fee</h4>
                       <p>
                         The event is organised in a hybrid mode and the
                         registration fee has been waived off. All accepted
-                        papers will be published free of cost in the conference
-                        proceedings.
+                        papers will be published in the conference proceedings.
+                        The following registration fee apply:
+                        <table
+                          style={{ width: "100%" }}
+                          border="1"
+                          cellspacing="0"
+                          cellpadding="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Registration</strong>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Amount</strong>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>In presence</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>150 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Online</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>100 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Exhibitor for companies / products</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>350 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Optional Items</strong>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Extra paper</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>100 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Conference Dinner (October 21)</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>30 &euro;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </p>
                       <h4> Extended Papers</h4>
                       <p>
