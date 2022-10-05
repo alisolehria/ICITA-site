@@ -36,29 +36,34 @@ class CallForPapers extends React.Component {
                       are not limited to the following research and development
                       areas/fields:
                     </p>
+                    <h4>Theme of the Conference</h4>
+                    <p>
+                      <b>Algorithms, Analytics and AI Applications</b>
+                    </p>
 
                     <div align="left">
                       <div>
                         <b>Conference Tracks</b>
                       </div>
                       <ul style={{ listStyleType: "circle" }} align="left">
-                        <li>Cloud computing  </li>
-                        <li>Business Process Engineering</li>
-                        <li>Machine learning</li>
-                        <li>Data Science</li>
-                        <li>Evolutionary Computing</li>
                         <li>Big Data Analytics</li>
-                        <li>Internet of Things and Cyber-Physical Systems</li>
-                        <li>Information and Knowledge Management</li>
-                        <li>Computer Vision and Image Processing</li>
+                        <li>Business Process Engineering</li>
+                        <li>Blockchain</li>
+                        <li>Cloud computing  </li>
                         <li>Computer Graphics and Games Programming </li>
-                        <li>Mobile Computing</li>
-                        <li>Ontology Engineering</li>
-                        <li>Software and Systems Modelling</li>
-                        <li>Human Computer Interaction</li>
-                        <li>Online Learning / E- Learning</li>
                         <li>Computer Networks</li>
-                        <li>Web Engineering&nbsp;</li>
+                        <li>Computer Vision and Image Processing</li>
+                        <li>Cybersecurity</li>
+                        <li>Data Science</li>
+                        <li>Digital Health</li>
+                        <li>Evolutionary Computing</li>
+                        <li>VR/VA and Games Applications in Industry</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Information and Knowledge Management</li>
+                        <li>Internet of Things and Cyber-Physical Systems</li>
+                        <li>Machine learning</li>
+                        <li>Mobile Computing</li>
+                        <li>Digital Education</li>
                       </ul>
                       <br />
                       <p>
@@ -119,10 +124,8 @@ class CallForPapers extends React.Component {
                         Based on Program Committee evaluation, a paper can be
                         rejected or accepted by the Conference Chairs. In the
                         later case, it can be accepted as the type originally
-                        submitted or as another type. Thus, full papers can be
-                        accepted as short papers or poster papers only.
-                        Similarly, short papers can be accepted as poster papers
-                        only.
+                        submitted. Thus, full papers can be accepted as full
+                        papers only.
                       </p>
                       <p>
                         Poster papers and Company papers are not published in
@@ -138,17 +141,21 @@ class CallForPapers extends React.Component {
                         The authors of accepted full papers will have 15 minutes
                         to present their work in a Conference Work Session;
                         approximately 5 minutes of discussion will follow each
-                        presentation. The authors of accepted Short papers and
-                        Company papers will have 10 minutes to present their
-                        work in a Conference Work Session; approximately 5
-                        minutes of discussion will follow each presentation.
+                        presentation.
+                      </p>
+                      <h4>Best Paper Award</h4>
+                      <p>
+                        Honoring outstanding scientific papers with high
+                        practical relevance to the confernce tracks will be
+                        given best paper award. Sponsored by the MDPI, a prize
+                        of €500 will be awarded for the best article to be
+                        presented in person at ICITA 2022.
                       </p>
                       <h4> Publication and Indexing </h4>
                       <p>
-                        To ensure that a full paper or short paper is published,
-                        poster paper or company paper is published, at least one
+                        To ensure that a full paper is published, at least one
                         of the authors must be fully registered by the 20th of
-                        June 2021, and the paper must comply with the suggested
+                        June 2022, and the paper must comply with the suggested
                         layout and page-limit. Additionally, all recommended
                         changes must be addressed by the authors before they
                         submit the camera-ready version.
@@ -161,104 +168,19 @@ class CallForPapers extends React.Component {
                         the participation of one author in the conference.
                       </p> */}
                       <p>
-                        Full and Short papers will be published in Proceedings
-                        by Springer, in Lecture Notes in Network System series.
+                        Full papers will be published in Proceedings by
+                        Springer, in Lecture Notes in Network System series.
                         Poster and company papers will not be published, just
                         presented in the conference.
                       </p>
                       <p>
-                        Published Full and Short papers will be submitted for
-                        indexation by <b>ISI</b>, <b>SCOPUS</b>, and{" "}
-                        <b>Google Scholar</b>, among others, and will be
-                        available in the <b>SpringerLink Digital Library.</b>
+                        Published Full papers will be submitted for indexation
+                        by <b>ISI</b>, <b>SCOPUS</b>, and <b>Google Scholar</b>,
+                        among others, and will be available in the{" "}
+                        <b>SpringerLink Digital Library.</b>
                       </p>
-                      <h4> Registration Fee</h4>
-                      <p>
-                        The event is organised in a hybrid mode and the
-                        registration fee has been waived off. All accepted
-                        papers will be published in the conference proceedings.
-                        The following registration fee apply:
-                        <table
-                          style={{ width: "100%" }}
-                          border="1"
-                          cellspacing="0"
-                          cellpadding="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td valign="bottom">
-                                <p>
-                                  <strong>Registration</strong>
-                                </p>
-                              </td>
-                              <td valign="bottom">
-                                <p>
-                                  <strong>Amount</strong>
-                                </p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>In presence</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>150 &euro;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Online</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>100 &euro;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Exhibitor for companies / products</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>350 &euro;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>
-                                  <strong>Optional Items</strong>
-                                </p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Extra paper</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>100 &euro;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Conference Dinner (October 21)</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>30 &euro;</p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </p>
-                      <h4> Extended Papers</h4>
+
+                      {/* <h4> Extended Papers</h4>
                       <p>
                         Extended version of high quality selected papers will be
                         invited for publication in a{" "}
@@ -269,7 +191,7 @@ class CallForPapers extends React.Component {
                           Special Issue (SI) on "Usability, Security and Machine
                           Learning" in Journal of Electronics.
                         </a>
-                      </p>
+                      </p> */}
                       <div className="button button_2 intro_button">
                         <Link to="/submissions">
                           <span>

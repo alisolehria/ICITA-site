@@ -35,25 +35,24 @@ class Speakers extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/blank.png")}
+                    src={require("../assets/img-comm/helga.jpg")}
                     alt=""
                     width="290"
                     height="270"
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  {/* <div className="speaker_name">
+                  <div className="speaker_name">
                     <a href="#/speaker1" style={{ fontSize: "14px" }}>
-                      Dr.David Tien
+                      Dr.Helga Hambrock
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker1" style={{ color: "white" }}>
                       {" "}
-                      Charles Sturt University, NSW Australia
+                      Concordia University, Chicago, US
                     </a>
-                  </div> */}
-                  TBC
+                  </div>
                 </div>
               </div>
             </div>
@@ -63,14 +62,14 @@ class Speakers extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/blank.png")}
+                    src={require("../assets/img-comm/tony.jpg")}
                     alt=""
                     width="260"
                     height="270"
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  {/* <div className="speaker_name">
+                  <div className="speaker_name">
                     <a href="#/speaker2" style={{ fontSize: "14px" }}>
                       Dr.Anthony Brooks
                     </a>
@@ -79,8 +78,7 @@ class Speakers extends React.Component {
                     <a href="#/speaker2" style={{ color: "white" }}>
                       Aalborg University, Denmark
                     </a>
-                  </div> */}
-                  TBC
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,24 +87,23 @@ class Speakers extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/blank.png")}
+                    src={require("../assets/img-comm/fernando3.jpg")}
                     alt=""
                     width="230"
                     height="260"
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  {/* <div className="speaker_name">
+                  <div className="speaker_name">
                     <a href="#/speaker3" style={{ fontSize: "14px" }}>
-                      Prof.Mohamed Quafafou
+                      Dr. José Manuel Machado
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker3" style={{ color: "white" }}>
-                      Aix-Marseille University, France
+                      University of Minho, Portugal{" "}
                     </a>
-                  </div> */}
-                  TBC
+                  </div>
                 </div>
               </div>
             </div>

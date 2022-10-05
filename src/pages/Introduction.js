@@ -62,9 +62,16 @@ class Introduction extends React.Component {
                 </p>
                 <p align="left">
                   Full and short papers accepted and registered will be
-                  published in Proceedings by Springer, will be submitted for
-                  indexation by ISI, EI-Compendex, and SCOPUS , among others,
-                  and will be available in the SpringerLink Digital Library.
+                  published in &nbsp;
+                  <a
+                    href="https://www.springer.com/series/15179"
+                    target="_blank"
+                  >
+                    Lecture Notes in Network Systems Series
+                  </a>
+                  , submitted for indexation by ISI, EI-Compendex, and SCOPUS ,
+                  among others, and will be available in the SpringerLink
+                  Digital Library.
                 </p>
                 <div className="row">
                   <div className="col-lg-4">
@@ -97,18 +104,18 @@ class Introduction extends React.Component {
                 </div>
                 <br></br>
 
-                {/* <p align="left">
+                <p align="left">
                   <b>
                     Extended version of selected papers will be published in
-                    Journal of Electronics, Special Issue on &nbsp;
+                    Journal of Education, Special Issue on &nbsp;
                     <a
-                      href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics#editors"
+                      href="https://www.mdpi.com/journal/education/special_issues/Current_Challenges_Digital_Higher_Education"
                       target="_blank"
                     >
-                      Usability, Security and Machine Learning
+                      Current Challenges in Digital Higher Education
                     </a>
                   </b>
-                </p> 
+                </p>
                 <br></br>
                 <p>
                   <img
@@ -116,7 +123,7 @@ class Introduction extends React.Component {
                     width="130"
                     height="100"
                   />
-    </p>*/}
+                </p>
               </div>
             </div>
           </div>

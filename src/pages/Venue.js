@@ -52,6 +52,16 @@ class Venue extends React.Component {
                         Links for the online event and program schedule will be
                         shared with all participants.
                       </p> */}
+                      <h3>Accomodation</h3>
+                      <p>
+                        If you are planning to attend the face to face event,
+                        there are plenty of hotels in the close proximity of the
+                        conference venue.
+                        <a href="https://tinyurl.com/5n6vahnj" target="_blank">
+                          Click here{" "}
+                        </a>{" "}
+                        for more details.
+                      </p>
                     </div>
                   </div>
                 </div>

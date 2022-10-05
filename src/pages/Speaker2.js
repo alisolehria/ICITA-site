@@ -11,7 +11,7 @@ class Speaker2 extends React.Component {
 
   componentDidMount() {
     document.title =
-      "Keynote Speakers - 15th International Conference on Information Technology and Applications (ICITA)";
+      "Keynote Speakers - 16th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {

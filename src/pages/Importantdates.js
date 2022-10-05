@@ -89,27 +89,27 @@ class ImoprtantDates extends React.Component {
                           Conference paper/ submission deadline
                         </div>
                         <div className="schedule_title">
-                          <br></br>5<sup>th</sup> June 2022
+                          <br></br>
+                          <strike>
+                            5<sup>th</sup> July 2022
+                          </strike>{" "}
+                          <br></br>20<sup>th</sup> July 2022
                         </div>
                         {/* <div className="schedule_info">
                           
                         </div> */}
                       </div>
                     </li>
-                    <li className="d-flex flex-row align-items-center justify-content-start">
+                    {/* <li className="d-flex flex-row align-items-center justify-content-start">
                       <div className="schedule_image">
-                        {/* <img src="images/schedule_1.jpg" alt="" /> */}
                       </div>
                       <div className="schedule_content">
                         <div className="schedule_time">
                           Poster/Paper Submission Date
                         </div>
                         <div className="schedule_title">20th June 2022</div>
-                        {/* <div className="schedule_info">
-                          
-                        </div> */}
                       </div>
-                    </li>
+                    </li> */}
                     <li className="d-flex flex-row align-items-center justify-content-start">
                       <div className="schedule_image">
                         {/* <img src="images/schedule_1.jpg" alt="" /> */}
@@ -118,7 +118,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Conference paper notification
                         </div>
-                        <div className="schedule_title">8th August 2022</div>
+                        <div className="schedule_title">20th August 2022</div>
                       </div>
                     </li>
                     <li className="d-flex flex-row align-items-center justify-content-start">
@@ -127,7 +127,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Camera Ready Submission (Strict)
                         </div>
-                        <div className="schedule_title">20th August 2022</div>
+                        <div className="schedule_title">22th August 2022</div>
                       </div>
                     </li>
                   </ul>

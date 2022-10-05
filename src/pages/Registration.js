@@ -31,7 +31,145 @@ class Registration extends React.Component {
                       >
                         Loading…
                       </iframe> */}
-                      TBC
+                      <h4> Registration Fee</h4>
+                      <p>
+                        The event is organised in a hybrid mode. All accepted
+                        papers will be published in the{" "}
+                        <a
+                          href="https://www.springer.com/series/15179"
+                          target="_blank"
+                        >
+                          Lecture Notes in Network Systems Series
+                        </a>
+                        <a
+                          href="https://www.springer.com/series/15179"
+                          target="_blank"
+                        ></a>
+                        . The following registration fee apply:
+                        <table
+                          style={{ width: "100%" }}
+                          border="1"
+                          cellspacing="0"
+                          cellpadding="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Registration</strong>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Amount</strong>
+                                </p>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <b>Online</b>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>
+                                  <b style={{ color: "green" }}>Free</b>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>In presence/Face to face</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>80 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Exhibitor for companies / products</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>350 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Optional Items</strong>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>&nbsp;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>
+                                  <b>Extra paper (Online)</b>
+                                </p>
+                              </td>
+                              <td valign="bottom">
+                                <p>
+                                  <b style={{ color: "green" }}>Free</b>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Extra paper (Face to face)</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>50 &euro;</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>Conference Dinner (October 21)</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>30 &euro;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div className="section_title_container text-center">
+                          <div className="section_title">
+                            <h2>Online participants</h2>
+                          </div>
+                          <div className="intro_left_content text_left">
+                            <p align="left">
+                              There is no registration fee for publication and
+                              attendance for online participants. Registration
+                              fee only applies to those attending the conference
+                              on site.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="button button_2 intro_button">
+                          <a
+                            href="https://reg.itmas.org/account/signup"
+                            target="_blank"
+                          >
+                            <span>
+                              Registration{" "}
+                              <img
+                                src={require("../assets/arrow.png")}
+                                alt=""
+                              />
+                            </span>
+                          </a>
+                        </div>
+                      </p>
                     </p>
                   </div>
                 </div>

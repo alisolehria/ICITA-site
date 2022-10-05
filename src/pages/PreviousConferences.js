@@ -13,7 +13,7 @@ class PreviousConferences extends React.Component {
           <div className="row">
             <div className="col">
               <div className="section_title_container text-center">
-                <div className="section_subtitle">14 Previous Conferences</div>
+                <div className="section_subtitle">Previous Conferences</div>
                 <div className="section_title">
                   <h1>Previous Conferences</h1>
                 </div>

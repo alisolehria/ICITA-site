@@ -11,7 +11,7 @@ class Speaker1 extends React.Component {
 
   componentDidMount() {
     document.title =
-      "Keynote Speakers - 15th International Conference on Information Technology and Applications (ICITA)";
+      "Keynote Speakers - 16th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -31,19 +31,20 @@ class Speaker1 extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <img
-                        src={require("../assets/img-comm/David_tien.jpg")}
+                        src={require("../assets/img-comm/helga.jpg")}
                         alt=""
                         width="260"
                         height="240"
                       />
-                      <h4>Dr.David Tien</h4>
+                      <h4>Dr.Helga Hambrock</h4>
 
                       <div className="organiser_intro mt-2 col-md-12">
                         <div className="col-md-12">
                           <p align="center">
                             <i>
-                              School of Computing, Mathematics and Engineering
-                              Charles Sturt University, NSW Australia
+                              Senior Instructional Designer Adjunct Professor in
+                              Educational Technology and Instructional Design
+                              Concordia University, Chicago, US
                             </i>
                           </p>
                         </div>
@@ -51,19 +52,13 @@ class Speaker1 extends React.Component {
                       <br></br>
                       <div className="intro_left_content text_left">
                         <p align="left">
-                          Dr David Tien received his undergraduate, master's and
-                          PhD degrees in Computer Science, Pure Mathematics and
-                          Electrical Engineering from Chinese Academy of
-                          Sciences, Ohio State University, USA, and the
-                          University of Sydney, Australia, respectively. Dr
-                          Tien’s research interests are in the areas of image
-                          and signal processing, natural language processing,
-                          artificial intelligent, telecommunication coding
-                          theory and biomedical engineering. Since 1986 he has
-                          published over 120 peer reviewed articles. Dr Tien is
-                          currently teaching computer science at the Charles
-                          Sturt University, Australia and serves as the Chairman
-                          of Conference Coordination Committee, IEEE NSW.
+                          Adjunct Professor in Educational Technology and
+                          Instructional Design, Contact, Dr. Helga Hambrock
+                          joined the Concordia University Chicago community as a
+                          Senior Instructional Designer and Assistant Professor
+                          in January 2016. With a background in education, she
+                          taught in public and private schools in South Africa
+                          for more than 15 years.
                         </p>
                       </div>
                     </div>

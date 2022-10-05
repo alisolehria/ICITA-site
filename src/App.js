@@ -96,7 +96,7 @@ class RouterNav extends React.Component {
             <Speakers />
           </Route>
           <Route path="/speaker1">
-            <PageCarousel title="Dr. David Tien" />
+            <PageCarousel title="Dr.Helga Hambrock" />
             <Speaker1 />
           </Route>
           <Route path="/speaker2">
@@ -104,7 +104,7 @@ class RouterNav extends React.Component {
             <Speaker2 />
           </Route>
           <Route path="/speaker3">
-            <PageCarousel title="Professor Mohamed Quafafou" />
+            <PageCarousel title="Dr. José Manuel Machado" />
             <Speaker3 />
           </Route>
           <Route path="/program">

@@ -11,7 +11,7 @@ class Submission extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2021 | Submissions - 15th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2022 | Submissions - 16th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -31,11 +31,10 @@ class Submission extends React.Component {
                   <div className="intro_left_content text_left">
                     <div className="row speakers_row">
                       <p align="left">
-                        {/* Prospective authors are encouraged to submit papers for
-                        evaluation by the Program Committee. */}
-                        The submission system will be live soon.
+                        Prospective authors are encouraged to submit papers for
+                        evaluation by the Program Committee.
                       </p>
-                      {/* <p align="left">
+                      <p align="left">
                         All papers must follow the formatting rules for
                         Proceedings Lecture Notes in Network Systems Series (see{" "}
                         <a
@@ -45,70 +44,55 @@ class Submission extends React.Component {
                           Instructions for Authors at Springer Website) and be
                           written in English.
                         </a>
-                      </p> */}
-                      {/* <p align="left">
+                      </p>
+                      <p align="left">
                         The version of papers for evaluation by the Program
-                        Committee, saved in PDF format, must not include
+                        Committee, saved in word format, must not include
                         identification, e-mail and affiliation of the authors.
                         This information must only be available in the
                         camera-ready version of accepted papers, saved in Word
                         or Latex format and also in PDF format. These files must
                         be accompanied by the filled ‘Consent to Publish’ form.
                         All files need to be compressed(e.g. ZIP file) and
-                        uploaded at the conference management system.
-                      </p> */}
-
-                      {/* <p align="left">
+                        uploaded at the conference management system. <br />
+                        Use the following templates:
+                        <ul>
+                          <li>
+                            {" "}
+                            <b>
+                              {" "}
+                              <a
+                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
+                                target="_blank"
+                              >
+                                Click here to download the consent form
+                              </a>
+                            </b>
+                          </li>
+                          <li>
+                            {" "}
+                            <b>
+                              {" "}
+                              <a
+                                href="https://www.icita.world/files/Springer_Template.docm"
+                                target="_blank"
+                              >
+                                Click here to download the Springer manuscript
+                                template
+                              </a>
+                            </b>
+                          </li>
+                        </ul>
+                      </p>
+                      <p align="left"></p>
+                      <p align="left">
                         To submit or upload a paper please go to{" "}
                         <b>Easychair conference Management System:</b>
-                      </p> */}
-                      <br></br>
-                      {/* <div className="button button_3 cta_button pull-left">
-                        <a
-                          href="https://easychair.org/conferences/?conf=icita2021"
-                          target="_blank"
-                        >
-                          <span>
-                            Easychair
-                            <img src={require("../assets/arrow.png")} alt="" />
-                          </span>
-                        </a>
-                      </div> */}
-                      {/* <p>
-                        Note: To submit a paper you need to have an EasyChair
-                        account.
-                      </p> */}
-
-                      {/* Camera Ready Paper Submission */}
-                      {/* <p align="left">
-                        <h4>Submit Camera Ready Papers by 20th August 2021</h4>
                       </p>
-                      <p align="left">
-                        <b>
-                          The version of papers must include names, e-mail and
-                          affiliation of the authors. This information must be
-                          saved in Word and also in PDF format. These files must
-                          be accompanied by the filled ‘Consent to Publish’
-                          form.
-                          <a
-                            href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
-                            target="_blank"
-                          >
-                            Click here to download the consent form.
-                          </a>
-                          All files need to be compressed(e.g. ZIP file) and
-                          uploaded at the conference management system.
-                        </b>
-                      </p> */}
-
-                      {/* <p align="left">
-                        To submit camera ready paper please go to{" "}
-                        <b>Easychair conference Management System:</b>
-                      </p> */}
                       <br></br>
-                      {/* <div className="button button_3 cta_button pull-left">
+                      <div className="button button_3 cta_button pull-left">
                         <a
-                          href="https://easychair.org/conferences/?conf=icita2021"
+                          href="https://easychair.org/my/conference?conf=icita2022"
                           target="_blank"
                         >
                           <span>
@@ -118,8 +102,91 @@ class Submission extends React.Component {
                         </a>
                       </div>
                       <p>
-                        <b>Note: You must update the existing paper </b>
+                        Note: To submit a paper you need to have an EasyChair
+                        account.
+                        <br />
+                      </p>
+
+                      {/* Camera Ready Paper Submission */}
+                      <p align="left">
+                        <h4>Submit Camera Ready Papers by 30th August 2022</h4>
+                      </p>
+                      <p align="left">
+                        <b>
+                          The version of papers must include names, e-mail and
+                          affiliation of the authors. This information must be
+                          saved in Word and also in PDF format. These files must
+                          be accompanied by the filled ‘Consent to Publish’
+                          form. Camera Ready Paper must be submitted in MS Word
+                          format with a signed consent to publish form.
+                        </b>
+                        <ul>
+                          <li>
+                            {" "}
+                            <b>
+                              {" "}
+                              <a
+                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
+                                target="_blank"
+                              >
+                                Click here to download the consent form
+                              </a>
+                            </b>
+                          </li>
+                          <li>
+                            {" "}
+                            <b>
+                              {" "}
+                              <a
+                                href="https://www.icita.world/files/Springer_Template.docm"
+                                target="_blank"
+                              >
+                                Click here to download the Springer manuscript
+                                template
+                              </a>
+                            </b>
+                          </li>
+                        </ul>
+                      </p>
+
+                      {/* <p align="left">
+                        To submit camera ready paper please go to{" "}
+                        <b>Easychair conference Management System:</b>
                       </p> */}
+                      <br></br>
+                      <div className="button button_3 cta_button pull-left">
+                        <a
+                          href="https://forms.gle/9fzByRwbXH7fXyrw6"
+                          target="_blank"
+                        >
+                          <span>
+                            Camera-Ready Paper Upload
+                            <img src={require("../assets/arrow.png")} alt="" />
+                          </span>
+                        </a>
+                      </div>
+                      <p align="left">
+                        <b>
+                          Note: You must submit your paper in MS Word format for
+                          editing{" "}
+                          <ul>
+                            <li>
+                              The camera ready paper must be in MS-word format
+                              and not exceed 10 page limit
+                            </li>
+                            <li>
+                              The camera ready paper must be accompanied by the
+                              'consent to publish' form duly signed on behalf of
+                              all authors
+                            </li>
+                            <li>
+                              The files (paper and consent) must use paper ID as
+                              a prefix e.g. 1029_paper.docx and
+                              1029_consent.docx
+                            </li>
+                          </ul>
+                        </b>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -127,15 +194,15 @@ class Submission extends React.Component {
               <div className="col-lg-3 sidebar_col">
                 <div className="sidebar">
                   <br></br>
-                  {/* <p>
+                  <p>
                     {" "}
                     <img
                       src={require("../assets/springerlink.jpg")}
                       width="230"
                       height="auto"
                     />{" "}
-                  </p> */}
-                  {/* <div className="categories sidebar_list">
+                  </p>
+                  <div className="categories sidebar_list">
                     <div className="sidebar_title">Proceedings</div>
                     <ul>
                       <li>
@@ -152,7 +219,7 @@ class Submission extends React.Component {
                         />
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
                   <div className="categories sidebar_list">
                     <img
                       src={require("../assets/scopus.png")}

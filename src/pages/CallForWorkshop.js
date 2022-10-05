@@ -22,9 +22,9 @@ class CallForWorkshop extends React.Component {
                   <p align="left">
                     The academics, professionals, researchers, and industrial
                     community is invited to submit proposals for the
-                    organization of Workshops/Special Sessions at ICITA 2021 -
-                    15th International Conference on Information Technology and
-                    Applications, to be held at Dubai, UAE, 13-14th Nov 2021.
+                    organization of Workshops/Special Sessions at ICITA 2022 -
+                    16th International Conference on Information Technology and
+                    Applications, to be held at Dubai, UAE, 20 - 22nd Oct 2022.
                     ICITA is a prestigious global forum for researchers and
                     practitioners to present and discuss the most recent
                     innovations, trends, results, experiences, and concerns in
@@ -35,7 +35,7 @@ class CallForWorkshop extends React.Component {
                   <h4>Workshop/Special Session Format</h4>
                   <p align="left">
                     Workshops/Special Sessions should focus on a specific
-                    scientific subject on the scope of ICITA'21 but not directly
+                    scientific subject on the scope of ICITA'22 but not directly
                     included on the main conference areas. Each workshop/Special
                     Session will be coordinated by an organizing committee
                     composed of, at least, two researchers in the field,
@@ -44,7 +44,7 @@ class CallForWorkshop extends React.Component {
                     program committee for the Workshop/Special Session, with
                     recognized researchers within the specific Workshop/Special
                     Session scientific area. The selection of Workshops/Special
-                    Sessions will be performed by ICITA'21 Workshop/Special
+                    Sessions will be performed by ICITA'22 Workshop/Special
                     Session Chairs. Workshops/Special Session papers will be
                     published in the conference main proceedings.
                   </p>
@@ -71,7 +71,7 @@ class CallForWorkshop extends React.Component {
                       <li>
                         Delivering the final versions of the papers accepted for
                         the Workshop/Special Session in accordance with the
-                        guidelines and deadlines defined by ICITA'21 organizers
+                        guidelines and deadlines defined by ICITA'22 organizers
                       </li>
                       <li>
                         Coordinating and chairing the Workshop/Special sessions
@@ -124,10 +124,15 @@ class CallForWorkshop extends React.Component {
                     <p>
                       Please submit your proposal by email to the workshop
                       chair:
-                      <b>Prof. Ibrahim A. Hameed</b>
+                      <b>Dr. Teresa Guarda</b>
+                      <b>Dr. Brij Gupt</b>
                       <b>
                         {" "}
-                        <a href="mailto:ibib@ntnu.no">ibib@ntnu.no</a>
+                        <a href="mailto:tguarda@gmail.com">tguarda@gmail.com</a>
+                        &nbsp;{" "}
+                        <a href="mailto:gupta.brij@gmail.com">
+                          gupta.brij@gmail.com
+                        </a>
                       </b>
                     </p>
                   </div>
@@ -136,14 +141,24 @@ class CallForWorkshop extends React.Component {
                     <div>
                       <h4>Workshops</h4>
                     </div>
-                    {/* <ul>
+                    <ul>
                       <li>
                         <a href="https://www.ikit.info/" target="_blank">
-                          5th International Workshop on Information and
-                          Knowledge in the Internet of Things (IKIT 2021)
+                          {" "}
+                          The 7th International Workshop on Information and
+                          Knowledge in the Internet of Things (IKIT 2022)
                         </a>
                       </li>
-                    </ul> */}
+                      <li>
+                        <a
+                          href="https://isegtech.org/wetbe2022/"
+                          target="_blank"
+                        >
+                          1st Workshop on Exponential Technologies in Business
+                          and Economics
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
