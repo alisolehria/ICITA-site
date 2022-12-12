@@ -23,6 +23,7 @@ import Speakers from "./pages/Speakers";
 import Speaker1 from "./pages/Speaker1";
 import Speaker2 from "./pages/Speaker2";
 import Speaker3 from "./pages/Speaker3";
+import Speaker4 from "./pages/Speaker4";
 
 import Venue from "./pages/Venue";
 import Program from "./pages/Program";
@@ -106,6 +107,10 @@ class RouterNav extends React.Component {
           <Route path="/speaker3">
             <PageCarousel title="Dr. José Manuel Machado" />
             <Speaker3 />
+          </Route>
+          <Route path="/speaker4">
+            <PageCarousel title="Dr. Ronnie Figueiredo" />
+            <Speaker4 />
           </Route>
           <Route path="/program">
             <PageCarousel title="Programme" />

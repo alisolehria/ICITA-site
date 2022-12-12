@@ -30,13 +30,31 @@ class Program extends React.Component {
                 <div className="intro_text text-center">
                   <div className="row speakers_row">
                     {" "}
-                    To be published.
-                    {/* <a
-                      href="https://www.icita.world/files/ICITA_2021.pdf"
+                    Please note, that session 1 on day 1 (20th October 2022)
+                    will be held in person at <br></br>
+                    ISCTE Edificio I (Building 1)<br></br>
+                    Auditorio<br></br>
+                    J.J. Laginha<br></br>1 NE 1<br></br>
+                    ISCTE Univesity Lisbon<br></br>
+                    ISCTE - Instituto Universitário de Lisboa,Portugal.<br></br>
+                    PS: The nearest Metro station is: Cidade Universitária The
+                    venue is in the same block as student services. The building
+                    is opposite IGOT, ISCTE
+                    <a
+                      href="https://goo.gl/maps/dgJvKF6ruBX4BQ2h9"
                       target="_blank"
                     >
-                      Click here to access the programme
-                    </a> */}
+                      Google Map Link
+                    </a>
+                    <br></br>
+                  </div>
+                  <div className="row speakers_row">
+                    <a
+                      href="https://www.icita.world/files/ICITA_2022.pdf"
+                      target="_blank"
+                    >
+                      Click here to access the programme for ICITA 2022
+                    </a>
                   </div>
                 </div>
               </div>

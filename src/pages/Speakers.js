@@ -31,7 +31,7 @@ class Speakers extends React.Component {
           </div>
           <div className="row speakers_row">
             {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
+            <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -58,7 +58,7 @@ class Speakers extends React.Component {
             </div>
 
             {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
+            <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -83,13 +83,13 @@ class Speakers extends React.Component {
               </div>
             </div>
 
-            <div className="col-xl-4 col-md-6">
+            <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
                     src={require("../assets/img-comm/fernando3.jpg")}
                     alt=""
-                    width="230"
+                    width="220"
                     height="260"
                   />
                 </div>
@@ -102,6 +102,31 @@ class Speakers extends React.Component {
                   <div className="speaker_title">
                     <a href="#/speaker3" style={{ color: "white" }}>
                       University of Minho, Portugal{" "}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-md-3">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/img-comm/Ronnie2.jpg")}
+                    alt=""
+                    width="210"
+                    height="260"
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a href="#/speaker4" style={{ fontSize: "14px" }}>
+                      Dr. Ronnie Figueiredo
+                    </a>
+                  </div>
+                  <div className="speaker_title">
+                    <a href="#/speaker4" style={{ color: "white" }}>
+                      Polytechnic of Leiria, Portugal{" "}
                     </a>
                   </div>
                 </div>
